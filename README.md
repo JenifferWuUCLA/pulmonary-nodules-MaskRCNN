@@ -1,6 +1,6 @@
 # Convolutional Neural Networks (CNNs) for Pulmonary Nodules, using TensorFlow
 
-## 天池医疗AI大赛[第一季]：ResNet-50肺癌结节概率预测
+## 天池医疗AI大赛[第一季]：Mask R-CNN肺部结节智能诊断
 > ##### @author Jeniffer Wu
 
 > ### The probability of predicting a suspected nodule as a pulmonary nodule.
