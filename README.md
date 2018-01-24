@@ -3,7 +3,7 @@
 ## 天池医疗AI大赛[第一季]：ResNet-50肺癌结节概率预测
 > ##### @author Jeniffer Wu
 
-### The probability of predicting a suspected nodule as a pulmonary nodule.
+> ### The probability of predicting a suspected nodule as a pulmonary nodule.
 
 # Mask R-CNN for Object Detection and Segmentation
 
