@@ -13,6 +13,8 @@ from keras.optimizers import Adadelta
 
 import six
 
+train_data_dir = "../Pulmonary_nodules_data/train/"
+val_data_dir = "../Pulmonary_nodules_data/val/"
 
 def _bn_relu(input):
     """Helper to build a BN -> relu block
@@ -205,11 +207,11 @@ train_datagen = ImageDataGenerator(rescale=1. / 255,
                                    zoom_range=0.2,
                                    horizontal_flip=True)
 validation_datagen = ImageDataGenerator(rescale=1. / 255)
-train_generator = train_datagen.flow_from_directory('./logo/train',
+train_generator = train_datagen.flow_from_directory(train_data_dir,
                                                     target_size=(64, 64),
                                                     batch_size=batch_size,
                                                     class_mode='categorical')
-validation_generator = validation_datagen.flow_from_directory('./logo/val',
+validation_generator = validation_datagen.flow_from_directory(val_data_dir,
                                                               target_size=(64, 64),
                                                               batch_size=batch_size,
                                                               class_mode='categorical')
