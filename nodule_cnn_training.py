@@ -16,6 +16,7 @@ import six
 train_data_dir = "../Pulmonary_nodules_data/train/"
 val_data_dir = "../Pulmonary_nodules_data/val/"
 
+
 def _bn_relu(input):
     """Helper to build a BN -> relu block
     """
@@ -130,9 +131,9 @@ def _handle_dim_ordering():
         COL_AXIS = 2
         CHANNEL_AXIS = 3
     else:
-        CHANNEL_AXIS = 1
         ROW_AXIS = 2
         COL_AXIS = 3
+        CHANNEL_AXIS = 1
 
 
 def _get_block(identifier):
@@ -201,24 +202,24 @@ class ResnetBuilder(object):
         return ResnetBuilder.build(input_shape, num_outputs, basic_block, [3, 4, 6, 3])
 
 
-batch_size = 64
+batch_size = 128
 train_datagen = ImageDataGenerator(rescale=1. / 255,
                                    shear_range=0.2,
                                    zoom_range=0.2,
                                    horizontal_flip=True)
 validation_datagen = ImageDataGenerator(rescale=1. / 255)
 train_generator = train_datagen.flow_from_directory(train_data_dir,
-                                                    target_size=(64, 64),
+                                                    target_size=(224, 224),
                                                     batch_size=batch_size,
                                                     class_mode='categorical')
 validation_generator = validation_datagen.flow_from_directory(val_data_dir,
-                                                              target_size=(64, 64),
+                                                              target_size=(224, 224),
                                                               batch_size=batch_size,
                                                               class_mode='categorical')
 
-num_classes = 42
+num_classes = 2
 epochs = 20
-input_shape = (64, 64, 3)
+input_shape = (224, 224, 3)
 
 model = ResnetBuilder.build_resnet_18(input_shape, num_classes)
 model.compile(loss='categorical_crossentropy',
