@@ -1,9 +1,9 @@
-# Convolutional Neural Networks (CNNs) for Pulmonary Nodules, using TensorFlow
+# Mask R-CNN for Pulmonary Nodules Diagnosis, using TensorFlow
 
-## 天池医疗AI大赛[第一季]：Mask R-CNN肺部结节智能诊断
+## 天池医疗AI大赛：Mask R-CNN肺部结节智能检测（Segmentation + Classification）
 > ##### @author Jeniffer Wu
 
-> ### The probability of predicting a suspected nodule as a pulmonary nodule.
+> ### The probability of a predicting suspected nodule as a pulmonary nodule.
 
 # Mask R-CNN for Object Detection and Segmentation
 
