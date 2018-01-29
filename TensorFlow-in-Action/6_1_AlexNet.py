@@ -1,4 +1,4 @@
-#%%
+# %%
 # Copyright 2015 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,9 +18,9 @@ import math
 import time
 import tensorflow as tf
 
+batch_size = 32
+num_batches = 100
 
-batch_size=32
-num_batches=100
 
 def print_activations(t):
     print(t.op.name, ' ', t.get_shape().as_list())
@@ -41,7 +41,7 @@ def inference(images):
         parameters += [kernel, biases]
 
 
-  # pool1
+        # pool1
     lrn1 = tf.nn.lrn(conv1, 4, bias=1.0, alpha=0.001 / 9.0, beta=0.75, name='lrn1')
     pool1 = tf.nn.max_pool(lrn1,
                            ksize=[1, 3, 3, 1],
@@ -50,7 +50,7 @@ def inference(images):
                            name='pool1')
     print_activations(pool1)
 
-  # conv2
+    # conv2
     with tf.name_scope('conv2') as scope:
         kernel = tf.Variable(tf.truncated_normal([5, 5, 64, 192], dtype=tf.float32,
                                                  stddev=1e-1), name='weights')
@@ -62,7 +62,7 @@ def inference(images):
         parameters += [kernel, biases]
     print_activations(conv2)
 
-  # pool2
+    # pool2
     lrn2 = tf.nn.lrn(conv2, 4, bias=1.0, alpha=0.001 / 9.0, beta=0.75, name='lrn2')
     pool2 = tf.nn.max_pool(lrn2,
                            ksize=[1, 3, 3, 1],
@@ -71,7 +71,7 @@ def inference(images):
                            name='pool2')
     print_activations(pool2)
 
-  # conv3
+    # conv3
     with tf.name_scope('conv3') as scope:
         kernel = tf.Variable(tf.truncated_normal([3, 3, 192, 384],
                                                  dtype=tf.float32,
@@ -84,7 +84,7 @@ def inference(images):
         parameters += [kernel, biases]
         print_activations(conv3)
 
-  # conv4
+        # conv4
     with tf.name_scope('conv4') as scope:
         kernel = tf.Variable(tf.truncated_normal([3, 3, 384, 256],
                                                  dtype=tf.float32,
@@ -97,7 +97,7 @@ def inference(images):
         parameters += [kernel, biases]
         print_activations(conv4)
 
-  # conv5
+        # conv5
     with tf.name_scope('conv5') as scope:
         kernel = tf.Variable(tf.truncated_normal([3, 3, 256, 256],
                                                  dtype=tf.float32,
@@ -110,7 +110,7 @@ def inference(images):
         parameters += [kernel, biases]
         print_activations(conv5)
 
-  # pool5
+        # pool5
     pool5 = tf.nn.max_pool(conv5,
                            ksize=[1, 3, 3, 1],
                            strides=[1, 2, 2, 1],
@@ -122,16 +122,16 @@ def inference(images):
 
 
 def time_tensorflow_run(session, target, info_string):
-#  """Run the computation to obtain the target tensor and print timing stats.
-#
-#  Args:
-#    session: the TensorFlow session to run the computation under.
-#    target: the target Tensor that is passed to the session's run() function.
-#    info_string: a string summarizing this run, to be printed with the stats.
-#
-#  Returns:
-#    None
-#  """
+    #  """Run the computation to obtain the target tensor and print timing stats.
+    #
+    #  Args:
+    #    session: the TensorFlow session to run the computation under.
+    #    target: the target Tensor that is passed to the session's run() function.
+    #    info_string: a string summarizing this run, to be printed with the stats.
+    #
+    #  Returns:
+    #    None
+    #  """
     num_steps_burn_in = 10
     total_duration = 0.0
     total_duration_squared = 0.0
@@ -152,44 +152,42 @@ def time_tensorflow_run(session, target, info_string):
            (datetime.now(), info_string, num_batches, mn, sd))
 
 
-
 def run_benchmark():
-#  """Run the benchmark on AlexNet."""
+    #  """Run the benchmark on AlexNet."""
     with tf.Graph().as_default():
-    # Generate some dummy images.
+        # Generate some dummy images.
         image_size = 224
-    # Note that our padding definition is slightly different the cuda-convnet.
-    # In order to force the model to start with the same activations sizes,
-    # we add 3 to the image_size and employ VALID padding above.
+        # Note that our padding definition is slightly different the cuda-convnet.
+        # In order to force the model to start with the same activations sizes,
+        # we add 3 to the image_size and employ VALID padding above.
         images = tf.Variable(tf.random_normal([batch_size,
-                                           image_size,
-                                           image_size, 3],
-                                          dtype=tf.float32,
-                                          stddev=1e-1))
+                                               image_size,
+                                               image_size, 3],
+                                              dtype=tf.float32,
+                                              stddev=1e-1))
 
-    # Build a Graph that computes the logits predictions from the
-    # inference model.
+        # Build a Graph that computes the logits predictions from the
+        # inference model.
         pool5, parameters = inference(images)
 
-    # Build an initialization operation.
+        # Build an initialization operation.
         init = tf.global_variables_initializer()
 
-    # Start running operations on the Graph.
+        # Start running operations on the Graph.
         config = tf.ConfigProto()
         config.gpu_options.allocator_type = 'BFC'
         sess = tf.Session(config=config)
         sess.run(init)
 
-    # Run the forward benchmark.
+        # Run the forward benchmark.
         time_tensorflow_run(sess, pool5, "Forward")
 
-    # Add a simple objective so we can calculate the backward pass.
+        # Add a simple objective so we can calculate the backward pass.
         objective = tf.nn.l2_loss(pool5)
-    # Compute the gradient with respect to all the parameters.
+        # Compute the gradient with respect to all the parameters.
         grad = tf.gradients(objective, parameters)
-    # Run the backward benchmark.
+        # Run the backward benchmark.
         time_tensorflow_run(sess, grad, "Forward-backward")
 
 
 run_benchmark()
-
