@@ -1,4 +1,0 @@
-# TensorFlowBook
-DeepLearning in TensorFlow
-
-
