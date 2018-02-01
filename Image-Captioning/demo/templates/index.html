@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Caption Intelligency Demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/bootstrap-horizon.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    body { background: #2b2b2b; }
+    .container h1 { color: #ddd; }
+    .container p { color: #808080; margin-bottom: 15px; }
+    .img-thumbnail { padding: 3px; }
+    .alert { margin-top: 15px; margin-bottom: 15px; }
+    .alert-default {
+      color: #494949;
+      background-color: #f6f6f6;
+      border-color: #ddd;
+    }
+    .caption h3 { font-size: 22px; margin-bottom: 13px; color: #ccc; }
+    .caption p { color: #aaa; }
+    .loading { width: 20px; margin-right: 5px; vertical-align: bottom; display: none; }
+    .plus { width: 60px; margin-right: 10px; border-radius: 6px; border: 1.5px dashed #494949;}
+    ::-webkit-scrollbar { display: none; }
+    .modal-dialog { width: 310px; }
+    .modal-header { border-bottom: 0; }
+    .modal-header h4 { display: inline; font-size: 25px; position: relative; top: 5px; }
+    .modal-content { background: #e8e8e8; color: #494949; }
+  </style>
+  <script>
+    $(document).ready(function(){
+
+      $("body")
+        .on("dragenter", function(event) {
+          if (!$('#drop-modal').is(':visible')) {
+            $("#drop-modal").modal('show');
+          }
+          return false;
+        });
+
+      $("#drop-modal").on("dragleave", function(event){
+        $(this).modal('hide');
+        return false;
+      });
+
+      $("#drop-modal")
+        .on("dragover", false)
+        .on("drop", function(e) {
+          imageDropped(e);
+          $(this).modal('hide');
+          return false;
+      });
+
+      $("body")
+        .on('dragover', false)
+        .on('drop', function (e) {
+          imageDropped(e);
+          $("#drop-modal").modal('hide');
+          return false;
+      });
+
+      function imageDropped(e){
+        var img_html = e.originalEvent.dataTransfer.getData('text/html');
+        var img_url = $(img_html).attr("src");
+
+        var html =
+        '<div class="col-sm-4">' +
+          '<div class="alert alert-default">' +
+            '<img class="loading" src="/static/icons/spin.gif"/>' +
+            '<strong>Ready</strong> to generate captions' +
+          '</div>' +
+          '<img src="' + img_url + '" alt="Image" class="img-responsive img-thumbnail">' +
+          '<div class="caption">' +
+          '</div>' +
+        '</div>';
+        $('.row').prepend(html).hide().fadeIn('fast');
+        $('.row').animate( { scrollLeft: '0' }, 500);
+
+        var img_obj = $(".col-sm-4").first().find("img");
+        $(img_obj).fadeTo(0, 0.5);
+        $(img_obj).prev().removeClass('alert-default alert-danger')
+          .addClass('alert-warning')
+          .html('<img class="loading" src="/static/icons/spin.gif"/><strong>Processing</strong> the image content');
+        $(img_obj).prev().find(".loading").show();
+
+        $.ajax({url: "/getCaptionUrl?imageUrl=" + img_url, success: function(result){
+
+          if(result){
+            // console.log(result);
+
+            $(img_obj).prev().removeClass('alert-warning')
+              .addClass('alert-success')
+              .html('<strong>Successfully</strong> generate the captions');
+
+              var res_ary = result.split('#');
+              var html = "<h3>" + res_ary[1] + "</h3>"
+                        + "<p>" + res_ary[3] + "</p>"
+                        + "<p>" + res_ary[5] + "</p>";
+              $(img_obj).next().html(html).hide().fadeIn('slow');
+              $(img_obj).fadeTo(0, 1);
+
+          }else{
+
+            $(img_obj).prev().removeClass('alert-warning')
+              .addClass('alert-danger')
+              .html('<strong>Oops</strong> please try again later');
+            $(img_obj).fadeTo(0, 1);
+          }
+        }, error: function(result){
+
+            $(img_obj).prev().removeClass('alert-warning')
+              .addClass('alert-danger')
+              .html('<strong>Format</strong> is not supported yet');
+            $(img_obj).fadeTo(0, 1);
+          }
+        });
+      }
+
+      $.getJSON( "/getImages", function( data ) {
+        $.each(data, function(i, d){
+          var html =
+          '<div class="col-sm-4">' +
+            '<div class="alert alert-default">' +
+              '<img class="loading" src="/static/icons/spin.gif"/>' +
+              '<strong>Ready</strong> to generate captions' +
+            '</div>' +
+            '<img src="/static/data/' + d + '" alt="Image" class="img-responsive img-thumbnail">' +
+            '<div class="caption">' +
+            '</div>' +
+          '</div>';
+          $('.row').append(html);
+        });
+
+        $("img").click(function(){
+          imageClicked(this);
+        });
+      });
+
+      function imageClicked(self){
+        $(self).fadeTo(0, 0.5);
+        $(self).prev().removeClass('alert-default alert-danger')
+          .addClass('alert-warning')
+          .html('<img class="loading" src="/static/icons/spin.gif"/><strong>Processing</strong> the image content');
+        $(self).prev().find(".loading").show();
+
+        var src = $(self).attr('src').split('/');
+        var name = src[src.length - 1];
+
+        $.ajax({url: "/getCaption?imageName=" + name, success: function(result){
+
+          if(result){
+            $(self).prev().removeClass('alert-warning')
+              .addClass('alert-success')
+              .html('<strong>Successfully</strong> generate the captions');
+
+              var res_ary = result.split('#');
+              var html = "<h3>" + res_ary[1] + "</h3>"
+                        + "<p>" + res_ary[3] + "</p>"
+                        + "<p>" + res_ary[5] + "</p>";
+              $(self).next().html(html).hide().fadeIn('slow');
+              $(self).fadeTo(0, 1);
+
+          }else{
+            $(self).prev().removeClass('alert-warning')
+              .addClass('alert-danger')
+              .html('<strong>Oops</strong> please try again later');
+            $(self).fadeTo(0, 1);
+          }
+        }, error: function(result){
+            $(self).prev().removeClass('alert-warning')
+              .addClass('alert-danger')
+              .html('<strong>Format</strong> is not supported yet');
+            $(self).fadeTo(0, 1);
+          }
+        });
+      }
+    });
+  </script>
+</head>
+<body>
+
+<div class="container">
+  <h1>Caption Intelligency Demo</h1>
+  <p>which uses backend image captioning scripts to generate captions</p>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+  <div class="row row-horizon">
+  </div>
+</div>
+
+<div id="drop-modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <img class="plus" src="/static/icons/plus.png"/>
+        <h4 class="modal-title">drop a new image</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
