@@ -69,10 +69,10 @@ test_data = ImageDataGenerator(
 with tf.name_scope('input'):
     # 定义迭代器
     iterator = Iterator.from_structure(tr_data.data.output_types,
-                                   tr_data.data.output_shapes)
+                                       tr_data.data.output_shapes)
 
-    training_initalize=iterator.make_initializer(tr_data.data)
-    testing_initalize=iterator.make_initializer(test_data.data)
+    training_initalize = iterator.make_initializer(tr_data.data)
+    testing_initalize = iterator.make_initializer(test_data.data)
 
     # 定义每次迭代的数据
     next_batch = iterator.get_next()
@@ -93,7 +93,7 @@ score = model.fc8
 with tf.name_scope('loss'):
     # 损失函数
     loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=score,
-                                                              labels=y))
+                                                                  labels=y))
 
 gradients = tf.gradients(loss, var_list)
 
@@ -103,8 +103,6 @@ with tf.name_scope('optimizer'):
     # 优化器，采用梯度下降算法进行优化
     optimizer = tf.train.GradientDescentOptimizer(learning_rate)
     train_op = optimizer.apply_gradients(grads_and_vars=gradients)
-
-
 
 # 定义网络精确度
 with tf.name_scope("accuracy"):
@@ -140,12 +138,12 @@ with tf.Session() as sess:
         sess.run(training_initalize)
         print("{} Epoch number: {} start".format(datetime.now(), epoch + 1))
 
-        #开始训练每一代
+        # 开始训练每一代
         for step in range(train_batches_per_epoch):
             img_batch, label_batch = sess.run(next_batch)
             sess.run(train_op, feed_dict={x: img_batch,
-                                           y: label_batch,
-                                           keep_prob: dropout_rate})
+                                          y: label_batch,
+                                          keep_prob: dropout_rate})
             if step % display_step == 0:
                 s = sess.run(merged_summary, feed_dict={x: img_batch,
                                                         y: label_batch,

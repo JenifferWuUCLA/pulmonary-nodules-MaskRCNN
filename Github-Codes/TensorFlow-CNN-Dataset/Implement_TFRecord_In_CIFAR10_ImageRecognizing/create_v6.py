@@ -21,16 +21,15 @@ Each class has 500 images
 TRAIN_TFRECORD = "train.tfrecords_v6.2"
 pace = 'train_v6/bigger_v2/'
 
+
 def build_train_tfrecords():
-    
-    
-    writer = tf.python_io.TFRecordWriter(TRAIN_TFRECORD)    
+    writer = tf.python_io.TFRecordWriter(TRAIN_TFRECORD)
     file_list_with_path, file_list = trace(pace, '.JPEG')
     for index, file_with_path in enumerate(file_list_with_path):
- 
+
         i = int(file_list[index][2:9])
-		
-		# decide class depending on ID
+
+        # decide class depending on ID
         if i == 1518878:
             Class = 0
         if i == 1440764:
@@ -51,23 +50,23 @@ def build_train_tfrecords():
             Class = 8
         if i == 1514859:
             Class = 9
-		
-        print('index = %d, Class is %d'%(index, Class) )
-		
+
+        print('index = %d, Class is %d' % (index, Class))
+
         img = Image.open(file_with_path)
-        img = img.resize((128, 128))	
+        img = img.resize((128, 128))
         img_raw = img.tobytes()
-        
+
         example = tf.train.Example(features=tf.train.Features(feature={ \
-                "label": tf.train.Feature(int64_list=tf.train.Int64List(value=[Class])), \
-                'img_raw': tf.train.Feature(bytes_list=tf.train.BytesList(value=[img_raw])), \
-                'name': tf.train.Feature(int64_list=tf.train.Int64List(value=[i]))
-            }))
+            "label": tf.train.Feature(int64_list=tf.train.Int64List(value=[Class])), \
+            'img_raw': tf.train.Feature(bytes_list=tf.train.BytesList(value=[img_raw])), \
+            'name': tf.train.Feature(int64_list=tf.train.Int64List(value=[i]))
+        }))
         writer.write(example.SerializeToString())
-        
+
     writer.close()
     print("Build train dataset success!")
-	
+
 
 if __name__ == '__main__':
     build_train_tfrecords()
