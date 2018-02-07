@@ -1,0 +1,1788 @@
+n00007846 person, individual, someone, somebody, mortal, soul
+n00017222 plant, flora, plant life
+n00021265 food, nutrient
+n00141669 check-in
+n01035504 Last Supper, Lord's Supper
+n01035667 Seder, Passover supper
+n01055165 camping, encampment, bivouacking, tenting
+n01464844 yolk, vitellus
+n02687992 airfield, landing field, flying field, field
+n02692232 airport, airdrome, aerodrome, drome
+n02693246 air terminal, airport terminal
+n02779435 ball
+n02802544 basketball court
+n02846511 blackboard, chalkboard
+n02870526 book
+n02879087 bouquet, corsage, posy, nosegay
+n02971167 car tire, automobile tire, auto tire, rubber tire
+n03120491 court
+n03159640 dais, podium, pulpit, rostrum, ambo, stump, soapbox
+n03201895 dinner napkin
+n03354903 flag
+n03417345 garden
+n03502200 headboard
+n03581125 intersection, crossroad, crossway, crossing, carrefour
+n03745146 menagerie, zoo, zoological garden
+n03814906 necklace
+n03938244 pillow
+n03963645 playground
+n03994417 powdered mustard, dry mustard
+n04096066 road, route
+n04097622 roadway
+n04108268 rope
+n04120842 runway
+n04188179 sheet, bed sheet
+n04208936 shower
+n04215402 sidewalk, pavement
+n04238128 slide, playground slide, sliding board
+n04254009 soap dish
+n04296562 stage
+n04334599 street
+n04335209 street
+n04435180 tile
+n05399034 milk
+n05399243 mother's milk
+n05399356 colostrum, foremilk
+n06470073 document, written document, papers
+n06793231 sign
+n06794110 street sign
+n06874185 traffic light, traffic signal, stoplight
+n06892775 concert
+n06998748 artwork, art, graphics, nontextual matter
+n07556406 comfort food
+n07556637 comestible, edible, eatable, pabulum, victual, victuals
+n07556872 tuck
+n07556970 course
+n07557165 dainty, delicacy, goody, kickshaw, treat
+n07557434 dish
+n07560193 fast food
+n07560331 finger food
+n07560422 ingesta
+n07560542 kosher
+n07560652 fare
+n07560903 diet
+n07561112 diet
+n07561590 dietary
+n07561848 balanced diet
+n07562017 bland diet, ulcer diet
+n07562172 clear liquid diet
+n07562379 diabetic diet
+n07562495 dietary supplement
+n07562651 carbohydrate loading, carbo loading
+n07562881 fad diet
+n07562984 gluten-free diet
+n07563207 high-protein diet
+n07563366 high-vitamin diet, vitamin-deficiency diet
+n07563642 light diet
+n07563800 liquid diet
+n07564008 low-calorie diet
+n07564101 low-fat diet
+n07564292 low-sodium diet, low-salt diet, salt-free diet
+n07564515 macrobiotic diet
+n07564629 reducing diet, obesity diet
+n07564796 soft diet, pap, spoon food
+n07564971 vegetarianism
+n07565083 menu
+n07565161 chow, chuck, eats, grub
+n07565259 board, table
+n07565608 mess
+n07565725 ration
+n07565945 field ration
+n07566092 K ration
+n07566231 C-ration
+n07566340 foodstuff, food product
+n07566863 starches
+n07567039 breadstuff
+n07567139 coloring, colouring, food coloring, food colouring, food color, food colour
+n07567390 concentrate
+n07567611 tomato concentrate
+n07567707 meal
+n07567980 kibble
+n07568095 cornmeal, Indian meal
+n07568241 farina
+n07568389 matzo meal, matzoh meal, matzah meal
+n07568502 oatmeal, rolled oats
+n07568625 pea flour
+n07568818 roughage, fiber
+n07568991 bran
+n07569106 flour
+n07569423 plain flour
+n07569543 wheat flour
+n07569644 whole wheat flour, graham flour, graham, whole meal flour
+n07569873 soybean meal, soybean flour, soy flour
+n07570021 semolina
+n07570530 corn gluten feed
+n07570720 nutriment, nourishment, nutrition, sustenance, aliment, alimentation, victuals
+n07572353 commissariat, provisions, provender, viands, victuals
+n07572616 larder
+n07572858 frozen food, frozen foods
+n07572957 canned food, canned foods, canned goods, tinned goods
+n07573103 canned meat, tinned meat
+n07573347 Spam
+n07573453 dehydrated food, dehydrated foods
+n07573563 square meal
+n07573696 meal, repast
+n07574176 potluck
+n07574426 refection
+n07574504 refreshment
+n07574602 breakfast
+n07574780 continental breakfast, petit dejeuner
+n07574923 brunch
+n07575076 lunch, luncheon, tiffin, dejeuner
+n07575226 business lunch
+n07575392 high tea
+n07575510 tea, afternoon tea, teatime
+n07575726 dinner
+n07575984 supper
+n07576182 buffet
+n07576438 picnic
+n07576577 cookout
+n07576781 barbecue, barbeque
+n07576969 clambake
+n07577144 fish fry
+n07577374 bite, collation, snack
+n07577538 nosh
+n07577657 nosh-up
+n07577772 ploughman's lunch
+n07577918 coffee break, tea break
+n07578093 banquet, feast, spread
+n07579575 entree, main course
+n07579688 piece de resistance
+n07579787 plate
+n07579917 adobo
+n07580053 side dish, side order, entremets
+n07580253 special
+n07580359 casserole
+n07580470 chicken casserole
+n07580592 chicken cacciatore, chicken cacciatora, hunter's chicken
+n07581249 antipasto
+n07581346 appetizer, appetiser, starter
+n07581607 canape
+n07581775 cocktail
+n07581931 fruit cocktail
+n07582027 crab cocktail
+n07582152 shrimp cocktail
+n07582277 hors d'oeuvre
+n07582441 relish
+n07582609 dip
+n07582811 bean dip
+n07582892 cheese dip
+n07582970 clam dip
+n07583066 guacamole
+n07583197 soup
+n07583865 soup du jour
+n07583978 alphabet soup
+n07584110 consomme
+n07584228 madrilene
+n07584332 bisque
+n07584423 borsch, borsh, borscht, borsht, borshch, bortsch
+n07584593 broth
+n07584859 barley water
+n07584938 bouillon
+n07585015 beef broth, beef stock
+n07585107 chicken broth, chicken stock
+n07585208 broth, stock
+n07585474 stock cube
+n07585557 chicken soup
+n07585644 cock-a-leekie, cocky-leeky
+n07585758 gazpacho
+n07585906 gumbo
+n07585997 julienne
+n07586099 marmite
+n07586179 mock turtle soup
+n07586318 mulligatawny
+n07586485 oxtail soup
+n07586604 pea soup
+n07586718 pepper pot, Philadelphia pepper pot
+n07586894 petite marmite, minestrone, vegetable soup
+n07587023 potage, pottage
+n07587111 pottage
+n07587206 turtle soup, green turtle soup
+n07587331 eggdrop soup
+n07587441 chowder
+n07587618 corn chowder
+n07587700 clam chowder
+n07587819 Manhattan clam chowder
+n07587962 New England clam chowder
+n07588111 fish chowder
+n07588193 won ton, wonton, wonton soup
+n07588299 split-pea soup
+n07588419 green pea soup, potage St. Germain
+n07588574 lentil soup
+n07588688 Scotch broth
+n07588817 vichyssoise
+n07588947 stew
+n07589458 bigos
+n07589543 Brunswick stew
+n07589724 burgoo
+n07589872 burgoo
+n07589967 olla podrida, Spanish burgoo
+n07590068 mulligan stew, mulligan, Irish burgoo
+n07590177 purloo, chicken purloo, poilu
+n07590320 goulash, Hungarian goulash, gulyas
+n07590502 hotchpotch
+n07590611 hot pot, hotpot
+n07590752 beef goulash
+n07590841 pork-and-veal goulash
+n07590974 porkholt
+n07591049 Irish stew
+n07591162 oyster stew
+n07591236 lobster stew
+n07591330 lobscouse, lobscuse, scouse
+n07591473 fish stew
+n07591586 bouillabaisse
+n07591813 matelote
+n07591961 paella
+n07592094 fricassee
+n07592317 chicken stew
+n07592400 turkey stew
+n07592481 beef stew
+n07592656 ragout
+n07592768 ratatouille
+n07592922 salmi
+n07593004 pot-au-feu
+n07593107 slumgullion
+n07593199 smorgasbord
+n07593471 viand
+n07593774 ready-mix
+n07593972 brownie mix
+n07594066 cake mix
+n07594155 lemonade mix
+n07594250 self-rising flour, self-raising flour
+n07594737 choice morsel, tidbit, titbit
+n07594840 savory, savoury
+n07595051 calf's-foot jelly
+n07595180 caramel, caramelized sugar
+n07595368 lump sugar
+n07595649 cane sugar
+n07595751 castor sugar, caster sugar
+n07595914 powdered sugar
+n07596046 granulated sugar
+n07596160 icing sugar
+n07596362 corn sugar
+n07596452 brown sugar
+n07596566 demerara, demerara sugar
+n07596684 sweet, confection
+n07596967 confectionery
+n07597145 confiture
+n07597263 sweetmeat
+n07597365 candy, confect
+n07598256 candy bar
+n07598529 carob bar
+n07598622 hardbake
+n07598734 hard candy
+n07598928 barley-sugar, barley candy
+n07599068 brandyball
+n07599161 jawbreaker
+n07599242 lemon drop
+n07599383 sourball
+n07599468 patty
+n07599554 peppermint patty
+n07599649 bonbon
+n07599783 brittle, toffee, toffy
+n07599911 peanut brittle
+n07599998 chewing gum, gum
+n07600177 gum ball
+n07600285 bubble gum
+n07600394 butterscotch
+n07600506 candied fruit, succade, crystallized fruit
+n07600696 candied apple, candy apple, taffy apple, caramel apple, toffee apple
+n07600895 crystallized ginger
+n07601025 grapefruit peel
+n07601175 lemon peel
+n07601290 orange peel
+n07601407 candied citrus peel
+n07601572 candy cane
+n07601686 candy corn
+n07601809 caramel
+n07602650 center, centre
+n07604956 comfit
+n07605040 cotton candy, spun sugar, candyfloss
+n07605198 dragee
+n07605282 dragee
+n07605380 fondant
+n07605474 fudge
+n07605597 chocolate fudge
+n07605693 divinity, divinity fudge
+n07605804 penuche, penoche, panoche, panocha
+n07605944 gumdrop
+n07606058 jujube
+n07606191 honey crisp
+n07606278 mint, mint candy
+n07606419 horehound
+n07606538 peppermint, peppermint candy
+n07606669 jelly bean, jelly egg
+n07606764 kiss, candy kiss
+n07606933 molasses kiss
+n07607027 meringue kiss
+n07607138 chocolate kiss
+n07607361 licorice, liquorice
+n07607492 Life Saver
+n07607605 lollipop, sucker, all-day sucker
+n07607707 lozenge
+n07607832 cachou
+n07607967 cough drop, troche, pastille, pastil
+n07608098 marshmallow
+n07608245 marzipan, marchpane
+n07608339 nougat
+n07608429 nougat bar
+n07608533 nut bar
+n07608641 peanut bar
+n07608721 popcorn ball
+n07608866 praline
+n07608980 rock candy
+n07609083 rock candy, rock
+n07609215 sugar candy
+n07609316 sugarplum
+n07609407 taffy
+n07609549 molasses taffy
+n07609632 truffle, chocolate truffle
+n07609728 Turkish Delight
+n07609840 dessert, sweet, afters
+n07610295 ambrosia, nectar
+n07610502 ambrosia
+n07610620 baked Alaska
+n07610746 blancmange
+n07610890 charlotte
+n07611046 compote, fruit compote
+n07611148 dumpling
+n07611267 flan
+n07611358 frozen dessert
+n07611733 junket
+n07611839 mousse
+n07611991 mousse
+n07612137 pavlova
+n07612273 peach melba
+n07612367 whip
+n07612530 prune whip
+n07612632 pudding
+n07612996 pudding, pud
+n07613158 syllabub, sillabub
+n07613266 tiramisu
+n07613480 trifle
+n07613671 tipsy cake
+n07613815 jello, Jell-O
+n07614103 apple dumpling
+n07614198 ice, frappe
+n07614348 water ice, sorbet
+n07614500 ice cream, icecream
+n07614730 ice-cream cone
+n07614825 chocolate ice cream
+n07615052 Neapolitan ice cream
+n07615190 peach ice cream
+n07615289 sherbert, sherbet
+n07615460 strawberry ice cream
+n07615569 tutti-frutti
+n07615671 vanilla ice cream
+n07615774 ice lolly, lolly, lollipop, popsicle
+n07615954 ice milk
+n07616046 frozen yogurt
+n07616174 snowball
+n07616265 snowball
+n07616386 parfait
+n07616487 ice-cream sundae, sundae
+n07616590 split
+n07616748 banana split
+n07616906 frozen pudding
+n07617051 frozen custard, soft ice cream
+n07617188 pudding
+n07617344 flummery
+n07617447 fish mousse
+n07617526 chicken mousse
+n07617611 chocolate mousse
+n07617708 plum pudding, Christmas pudding
+n07617839 carrot pudding
+n07617932 corn pudding
+n07618029 steamed pudding
+n07618119 duff, plum duff
+n07618281 vanilla pudding
+n07618432 chocolate pudding
+n07618587 brown Betty
+n07618684 Nesselrode, Nesselrode pudding
+n07618871 pease pudding
+n07619004 custard
+n07619208 creme caramel
+n07619301 creme anglais
+n07619409 creme brulee
+n07619508 fruit custard
+n07619881 tapioca
+n07620047 tapioca pudding
+n07620145 roly-poly, roly-poly pudding
+n07620327 suet pudding
+n07620597 Bavarian cream
+n07620689 maraschino, maraschino cherry
+n07621264 nonpareil
+n07621497 zabaglione, sabayon
+n07623136 pastry, pastry dough
+n07624466 turnover
+n07624666 apple turnover
+n07624757 knish
+n07624924 pirogi, piroshki, pirozhki
+n07625061 samosa
+n07625324 timbale
+n07627931 puff paste, pate feuillete
+n07628068 phyllo
+n07628181 puff batter, pouf paste, pate a choux
+n07631926 ice-cream cake, icebox cake
+n07641928 fish cake, fish ball
+n07642361 fish stick, fish finger
+n07642471 conserve, preserve, conserves, preserves
+n07642742 apple butter
+n07642833 chowchow
+n07642933 jam
+n07643026 lemon curd, lemon cheese
+n07643200 strawberry jam, strawberry preserves
+n07643306 jelly
+n07643474 apple jelly
+n07643577 crabapple jelly
+n07643679 grape jelly
+n07643764 marmalade
+n07643891 orange marmalade
+n07643981 gelatin, jelly
+n07644244 gelatin dessert
+n07648913 buffalo wing
+n07648997 barbecued wing
+n07650792 mess
+n07650903 mince
+n07651025 puree
+n07654148 barbecue, barbeque
+n07654298 biryani, biriani
+n07655067 escalope de veau Orloff
+n07655263 saute
+n07663899 patty, cake
+n07665438 veal parmesan, veal parmigiana
+n07666176 veal cordon bleu
+n07672914 margarine, margarin, oleo, oleomargarine, marge
+n07678586 mincemeat
+n07678729 stuffing, dressing
+n07678953 turkey stuffing
+n07679034 oyster stuffing, oyster dressing
+n07679140 forcemeat, farce
+n07679356 bread, breadstuff, staff of life
+n07680168 anadama bread
+n07680313 bap
+n07680416 barmbrack
+n07680517 breadstick, bread-stick
+n07680655 grissino
+n07680761 brown bread, Boston brown bread
+n07680932 bun, roll
+n07681264 tea bread
+n07681355 caraway seed bread
+n07681450 challah, hallah
+n07681691 cinnamon bread
+n07681805 cracked-wheat bread
+n07681926 cracker
+n07682197 crouton
+n07682316 dark bread, whole wheat bread, whole meal bread, brown bread
+n07682477 English muffin
+n07682624 flatbread
+n07682808 garlic bread
+n07682952 gluten bread
+n07683039 graham bread
+n07683138 Host
+n07683265 flatbrod
+n07683360 bannock
+n07683490 chapatti, chapati
+n07683617 pita, pocket bread
+n07683786 loaf of bread, loaf
+n07684084 French loaf
+n07684164 matzo, matzoh, matzah, unleavened bread
+n07684289 nan, naan
+n07684422 onion bread
+n07684517 raisin bread
+n07684600 quick bread
+n07684938 banana bread
+n07685031 date bread
+n07685118 date-nut bread
+n07685218 nut bread
+n07685303 oatcake
+n07685399 Irish soda bread
+n07685546 skillet bread, fry bread
+n07685730 rye bread
+n07685918 black bread, pumpernickel
+n07686021 Jewish rye bread, Jewish rye
+n07686202 limpa
+n07686299 Swedish rye bread, Swedish rye
+n07686461 salt-rising bread
+n07686634 simnel
+n07686720 sour bread, sourdough bread
+n07686873 toast
+n07687053 wafer
+n07687211 white bread, light bread
+n07687381 baguet, baguette
+n07687469 French bread
+n07687626 Italian bread
+n07687789 cornbread
+n07688021 corn cake
+n07688130 skillet corn bread
+n07688265 ashcake, ash cake, corn tash
+n07688412 hoecake
+n07688624 cornpone, pone
+n07688757 corn dab, corn dodger, dodger
+n07688898 hush puppy, hushpuppy
+n07689003 johnnycake, johnny cake, journey cake
+n07689217 Shawnee cake
+n07689313 spoon bread, batter bread
+n07689490 cinnamon toast
+n07689624 orange toast
+n07689757 Melba toast
+n07689842 zwieback, rusk, Brussels biscuit, twice-baked bread
+n07690019 frankfurter bun, hotdog bun
+n07690152 hamburger bun, hamburger roll
+n07690273 muffin, gem
+n07690431 bran muffin
+n07690511 corn muffin
+n07690585 Yorkshire pudding
+n07690739 popover
+n07690892 scone
+n07691091 drop scone, griddlecake, Scotch pancake
+n07691237 cross bun, hot cross bun
+n07691539 brioche
+n07691650 crescent roll, croissant
+n07691758 hard roll, Vienna roll
+n07691863 soft roll
+n07691954 kaiser roll
+n07692114 Parker House roll
+n07692248 clover-leaf roll
+n07692405 onion roll
+n07692517 bialy, bialystoker
+n07692614 sweet roll, coffee roll
+n07692887 bear claw, bear paw
+n07693048 cinnamon roll, cinnamon bun, cinnamon snail
+n07693223 honey bun, sticky bun, caramel bun, schnecken
+n07693439 pinwheel roll
+n07693590 danish, danish pastry
+n07693725 bagel, beigel
+n07693889 onion bagel
+n07693972 biscuit
+n07694169 rolled biscuit
+n07694403 baking-powder biscuit
+n07694516 buttermilk biscuit, soda biscuit
+n07694659 shortcake
+n07694839 hardtack, pilot biscuit, pilot bread, sea biscuit, ship biscuit
+n07695187 saltine
+n07695284 soda cracker
+n07695410 oyster cracker
+n07695504 water biscuit
+n07695652 graham cracker
+n07695742 pretzel
+n07695878 soft pretzel
+n07695965 sandwich
+n07696403 sandwich plate
+n07696527 butty
+n07696625 ham sandwich
+n07696728 chicken sandwich
+n07696839 club sandwich, three-decker, triple-decker
+n07696977 open-face sandwich, open sandwich
+n07697100 hamburger, beefburger, burger
+n07697313 cheeseburger
+n07697408 tunaburger
+n07697537 hotdog, hot dog, red hot
+n07697699 Sloppy Joe
+n07697825 bomber, grinder, hero, hero sandwich, hoagie, hoagy, Cuban sandwich, Italian sandwich, poor boy, sub, submarine, submarine sandwich, torpedo, wedge, zep
+n07698250 gyro
+n07698401 bacon-lettuce-tomato sandwich, BLT
+n07698543 Reuben
+n07698672 western, western sandwich
+n07698782 wrap
+n07700003 spaghetti
+n07703889 hasty pudding
+n07704054 gruel
+n07704205 congee, jook
+n07704305 skilly
+n07708512 crudites
+n07708685 celery stick
+n07709881 bean curd, tofu
+n07711683 potato skin, potato peel, potato peelings
+n07712382 snack food
+n07712559 chip, crisp, potato chip, Saratoga chip
+n07712748 corn chip
+n07712856 tortilla chip
+n07712959 nacho
+n07726525 mushy peas
+n07730320 carrot stick
+n07731122 coffee substitute
+n07731284 chicory, chicory root
+n07731436 Postum
+n07731952 corn, edible corn
+n07732168 sweet corn, green corn
+n07732302 hominy
+n07732433 lye hominy
+n07732525 pearl hominy
+n07732636 popcorn
+n07734879 stuffed mushroom
+n07755089 cocoa
+n07758582 gherkin
+n07773428 coconut milk, coconut water
+n07774479 cola extract
+n07783827 anchovy paste
+n07785487 rollmops
+n07800091 feed, provender
+n07800487 cattle cake
+n07800636 creep feed
+n07800740 fodder
+n07801007 feed grain
+n07801091 eatage, forage, pasture, pasturage, grass
+n07801342 silage, ensilage
+n07801508 oil cake
+n07801709 oil meal
+n07801779 alfalfa
+n07801892 broad bean, horse bean
+n07802026 hay
+n07802152 timothy
+n07802246 stover
+n07802417 grain, food grain, cereal
+n07802767 grist
+n07802863 groats
+n07802963 millet
+n07803093 barley, barleycorn
+n07803213 pearl barley
+n07803310 buckwheat
+n07803408 bulgur, bulghur, bulgur wheat
+n07803545 wheat, wheat berry
+n07803779 cracked wheat
+n07803895 stodge
+n07803992 wheat germ
+n07804152 oat
+n07804323 rice
+n07804543 brown rice
+n07804657 white rice, polished rice
+n07804771 wild rice, Indian rice
+n07804900 paddy
+n07805006 slop, slops, swill, pigswill, pigwash
+n07805254 mash
+n07805389 chicken feed, scratch
+n07805478 cud, rechewed food
+n07805594 bird feed, bird food, birdseed
+n07805731 petfood, pet-food, pet food
+n07805966 dog food
+n07806043 cat food
+n07806120 canary seed
+n07806221 salad
+n07806633 tossed salad
+n07806774 green salad
+n07806879 Caesar salad
+n07807002 salmagundi
+n07807171 salad nicoise
+n07807317 combination salad
+n07807472 chef's salad
+n07807594 potato salad
+n07807710 pasta salad
+n07807834 macaroni salad
+n07807922 fruit salad
+n07808022 Waldorf salad
+n07808166 crab Louis
+n07808268 herring salad
+n07808352 tuna fish salad, tuna salad
+n07808479 chicken salad
+n07808587 coleslaw, slaw
+n07808675 aspic
+n07808806 molded salad
+n07808904 tabbouleh, tabooli
+n07809096 ingredient, fixings
+n07809368 flavorer, flavourer, flavoring, flavouring, seasoner, seasoning
+n07810531 bouillon cube
+n07810907 condiment
+n07811416 herb
+n07812046 fines herbes
+n07812184 spice
+n07812662 spearmint oil
+n07812790 lemon oil
+n07812913 wintergreen oil, oil of wintergreen
+n07813107 salt, table salt, common salt
+n07813324 celery salt
+n07813495 onion salt
+n07813579 seasoned salt
+n07813717 sour salt
+n07813833 five spice powder
+n07814007 allspice
+n07814203 cinnamon
+n07814390 stick cinnamon
+n07814487 clove
+n07814790 fennel
+n07814925 ginger, gingerroot
+n07815163 ginger, powdered ginger
+n07815294 mace
+n07815424 nutmeg
+n07815588 pepper, peppercorn
+n07815839 black pepper
+n07815956 white pepper
+n07816052 sassafras
+n07816164 basil, sweet basil
+n07816296 bay leaf
+n07816398 borage
+n07816575 hyssop
+n07816726 caraway
+n07816839 chervil
+n07817024 chives
+n07817160 comfrey, healing herb
+n07817315 coriander, Chinese parsley, cilantro
+n07817465 coriander, coriander seed
+n07817599 costmary
+n07817758 fennel, common fennel
+n07818029 fennel seed
+n07818133 fenugreek, fenugreek seed
+n07818277 garlic, ail
+n07818422 clove, garlic clove
+n07818572 garlic chive
+n07818689 lemon balm
+n07818825 lovage
+n07818995 marjoram, oregano
+n07819166 mint
+n07819303 mustard seed
+n07819480 mustard, table mustard
+n07819682 Chinese mustard
+n07819769 nasturtium
+n07819896 parsley
+n07820145 rosemary
+n07820297 rue
+n07820497 sage
+n07820683 clary sage
+n07820814 savory, savoury
+n07820960 summer savory, summer savoury
+n07821107 winter savory, winter savoury
+n07821260 sweet woodruff, waldmeister
+n07821404 sweet cicely
+n07821610 tarragon, estragon
+n07821758 thyme
+n07821919 turmeric
+n07822053 caper
+n07822197 catsup, ketchup, cetchup, tomato ketchup
+n07822323 cardamom, cardamon, cardamum
+n07822518 cayenne, cayenne pepper, red pepper
+n07822687 chili powder
+n07822845 chili sauce
+n07823105 chutney, Indian relish
+n07823280 steak sauce
+n07823369 taco sauce
+n07823460 salsa
+n07823591 mint sauce
+n07823698 cranberry sauce
+n07823814 curry powder
+n07823951 curry
+n07824191 lamb curry
+n07824268 duck sauce, hoisin sauce
+n07824383 horseradish
+n07824502 marinade
+n07824702 paprika
+n07824863 Spanish paprika
+n07824988 pickle
+n07825194 dill pickle
+n07825399 bread and butter pickle
+n07825496 pickle relish
+n07825597 piccalilli
+n07825717 sweet pickle
+n07825850 applesauce, apple sauce
+n07825972 soy sauce, soy
+n07826091 Tabasco, Tabasco sauce
+n07826250 tomato paste
+n07826340 angelica
+n07826453 angelica
+n07826544 almond extract
+n07826653 anise, aniseed, anise seed
+n07826930 Chinese anise, star anise, star aniseed
+n07827130 juniper berries
+n07827284 saffron
+n07827410 sesame seed, benniseed
+n07827554 caraway seed
+n07827750 poppy seed
+n07827896 dill, dill weed
+n07828041 dill seed
+n07828156 celery seed
+n07828275 lemon extract
+n07828378 monosodium glutamate, MSG
+n07828642 vanilla bean
+n07828987 vinegar, acetum
+n07829248 cider vinegar
+n07829331 wine vinegar
+n07829412 sauce
+n07830493 anchovy sauce
+n07830593 hot sauce
+n07830690 hard sauce
+n07830841 horseradish sauce, sauce Albert
+n07830986 bolognese pasta sauce
+n07831146 carbonara
+n07831267 tomato sauce
+n07831450 tartare sauce, tartar sauce
+n07831663 wine sauce
+n07831821 marchand de vin, mushroom wine sauce
+n07831955 bread sauce
+n07832099 plum sauce
+n07832202 peach sauce
+n07832307 apricot sauce
+n07832416 pesto
+n07832592 ravigote, ravigotte
+n07832741 remoulade sauce
+n07832902 dressing, salad dressing
+n07833333 sauce Louis
+n07833535 bleu cheese dressing, blue cheese dressing
+n07833672 blue cheese dressing, Roquefort dressing
+n07833816 French dressing, vinaigrette, sauce vinaigrette
+n07833951 Lorenzo dressing
+n07834065 anchovy dressing
+n07834160 Italian dressing
+n07834286 half-and-half dressing
+n07834507 mayonnaise, mayo
+n07834618 green mayonnaise, sauce verte
+n07834774 aioli, aioli sauce, garlic sauce
+n07834872 Russian dressing, Russian mayonnaise
+n07835051 salad cream
+n07835173 Thousand Island dressing
+n07835331 barbecue sauce
+n07835457 hollandaise
+n07835547 bearnaise
+n07835701 Bercy, Bercy butter
+n07835823 bordelaise
+n07835921 bourguignon, bourguignon sauce, Burgundy sauce
+n07836077 brown sauce, sauce Espagnole
+n07836269 Espagnole, sauce Espagnole
+n07836456 Chinese brown sauce, brown sauce
+n07836600 blanc
+n07836731 cheese sauce
+n07836838 chocolate sauce, chocolate syrup
+n07837002 hot-fudge sauce, fudge sauce
+n07837110 cocktail sauce, seafood sauce
+n07837234 Colbert, Colbert butter
+n07837362 white sauce, bechamel sauce, bechamel
+n07837545 cream sauce
+n07837630 Mornay sauce
+n07837755 demiglace, demi-glaze
+n07837912 gravy, pan gravy
+n07838073 gravy
+n07838233 spaghetti sauce, pasta sauce
+n07838441 marinara
+n07838551 mole
+n07838659 hunter's sauce, sauce chausseur
+n07838811 mushroom sauce
+n07838905 mustard sauce
+n07839055 Nantua, shrimp sauce
+n07839172 Hungarian sauce, paprika sauce
+n07839312 pepper sauce, Poivrade
+n07839478 roux
+n07839593 Smitane
+n07839730 Soubise, white onion sauce
+n07839864 Lyonnaise sauce, brown onion sauce
+n07840027 veloute
+n07840124 allemande, allemande sauce
+n07840219 caper sauce
+n07840304 poulette
+n07840395 curry sauce
+n07840520 Worcester sauce, Worcestershire, Worcestershire sauce
+n07840672 coconut milk, coconut cream
+n07840804 egg, eggs
+n07841037 egg white, white, albumen, ovalbumin
+n07841345 egg yolk, yolk
+n07841495 boiled egg, coddled egg
+n07841639 hard-boiled egg, hard-cooked egg
+n07841800 Easter egg
+n07841907 Easter egg
+n07842044 chocolate egg
+n07842130 candy egg
+n07842202 poached egg, dropped egg
+n07842308 scrambled eggs
+n07842433 deviled egg, stuffed egg
+n07842605 shirred egg, baked egg, egg en cocotte
+n07842753 omelet, omelette
+n07842972 firm omelet
+n07843117 French omelet
+n07843220 fluffy omelet
+n07843348 western omelet
+n07843464 souffle
+n07843636 fried egg
+n07843775 dairy product
+n07844042 milk
+n07844604 milk
+n07844786 sour milk
+n07844867 soya milk, soybean milk, soymilk
+n07845087 formula
+n07845166 pasteurized milk
+n07845335 cows' milk
+n07845421 yak's milk
+n07845495 goats' milk
+n07845571 acidophilus milk
+n07845702 raw milk
+n07845775 scalded milk
+n07845863 homogenized milk
+n07846014 certified milk
+n07846143 powdered milk, dry milk, dried milk, milk powder
+n07846274 nonfat dry milk
+n07846359 evaporated milk
+n07846471 condensed milk
+n07846557 skim milk, skimmed milk
+n07846688 semi-skimmed milk
+n07846802 whole milk
+n07846938 low-fat milk
+n07847047 buttermilk
+n07847198 cream
+n07847453 clotted cream, Devonshire cream
+n07847585 double creme, heavy whipping cream
+n07847706 half-and-half
+n07847827 heavy cream
+n07847917 light cream, coffee cream, single cream
+n07848093 sour cream, soured cream
+n07848196 whipping cream, light whipping cream
+n07848338 butter
+n07848771 clarified butter, drawn butter
+n07848936 ghee
+n07849026 brown butter, beurre noisette
+n07849186 Meuniere butter, lemon butter
+n07849336 yogurt, yoghurt, yoghourt
+n07849506 blueberry yogurt
+n07849619 raita
+n07849733 whey
+n07849912 curd
+n07850083 curd
+n07850219 clabber
+n07850329 cheese
+n07851298 cream cheese
+n07851443 double cream
+n07851554 mascarpone
+n07851641 triple cream, triple creme
+n07851767 cottage cheese, pot cheese, farm cheese, farmer's cheese
+n07851926 process cheese, processed cheese
+n07852045 bleu, blue cheese
+n07852229 Stilton
+n07852302 Roquefort
+n07852376 gorgonzola
+n07852452 Danish blue
+n07852532 Bavarian blue
+n07852614 Brie
+n07852712 brick cheese
+n07852833 Camembert
+n07852919 cheddar, cheddar cheese, Armerican cheddar, American cheese
+n07853125 rat cheese, store cheese
+n07853232 Cheshire cheese
+n07853345 double Gloucester
+n07853445 Edam
+n07853560 goat cheese, chevre
+n07853648 Gouda, Gouda cheese
+n07853762 grated cheese
+n07853852 hand cheese
+n07853946 Liederkranz
+n07854066 Limburger
+n07854184 mozzarella
+n07854266 Muenster
+n07854348 Parmesan
+n07854455 quark cheese, quark
+n07854614 ricotta
+n07854707 string cheese
+n07854813 Swiss cheese
+n07854982 Emmenthal, Emmental, Emmenthaler, Emmentaler
+n07855105 Gruyere
+n07855188 sapsago
+n07855317 Velveeta
+n07855413 nut butter
+n07855510 peanut butter
+n07855603 marshmallow fluff
+n07855721 onion butter
+n07855812 pimento butter
+n07855907 shrimp butter
+n07856045 lobster butter
+n07856186 yak butter
+n07856270 spread, paste
+n07856756 cheese spread
+n07856895 anchovy butter
+n07856992 fishpaste
+n07857076 garlic butter
+n07857170 miso
+n07857356 wasabi
+n07857598 snail butter
+n07857731 hummus, humus, hommos, hoummos, humous
+n07857959 pate
+n07858114 duck pate
+n07858197 foie gras, pate de foie gras
+n07858336 tapenade
+n07858484 tahini
+n07858595 sweetening, sweetener
+n07858841 aspartame
+n07858978 honey
+n07859142 saccharin
+n07859284 sugar, refined sugar
+n07859583 syrup, sirup
+n07859796 sugar syrup
+n07859951 molasses
+n07860103 sorghum, sorghum molasses
+n07860208 treacle, golden syrup
+n07860331 grenadine
+n07860447 maple syrup
+n07860548 corn syrup
+n07860629 miraculous food, manna, manna from heaven
+n07860805 batter
+n07860988 dough
+n07861158 bread dough
+n07861247 pancake batter
+n07861334 fritter batter
+n07861557 coq au vin
+n07861681 chicken provencale
+n07861813 chicken and rice
+n07861983 moo goo gai pan
+n07862095 arroz con pollo
+n07862244 bacon and eggs
+n07862348 barbecued spareribs, spareribs
+n07862461 beef Bourguignonne, boeuf Bourguignonne
+n07862611 beef Wellington, filet de boeuf en croute
+n07862770 bitok
+n07862946 boiled dinner, New England boiled dinner
+n07863107 Boston baked beans
+n07863229 bubble and squeak
+n07863374 pasta
+n07863547 cannelloni
+n07863644 carbonnade flamande, Belgian beef stew
+n07863802 cheese souffle
+n07863935 chicken Marengo
+n07864065 chicken cordon bleu
+n07864198 Maryland chicken
+n07864317 chicken paprika, chicken paprikash
+n07864475 chicken Tetrazzini
+n07864638 Tetrazzini
+n07864756 chicken Kiev
+n07864934 chili, chili con carne
+n07865105 chili dog
+n07865196 chop suey
+n07865484 chow mein
+n07865575 codfish ball, codfish cake
+n07865700 coquille
+n07865788 coquilles Saint-Jacques
+n07866015 croquette
+n07866151 cottage pie
+n07866277 rissole
+n07866409 dolmas, stuffed grape leaves
+n07866571 egg foo yong, egg fu yung
+n07866723 egg roll, spring roll
+n07866868 eggs Benedict
+n07867021 enchilada
+n07867164 falafel, felafel
+n07867324 fish and chips
+n07867421 fondue, fondu
+n07867616 cheese fondue
+n07867751 chocolate fondue
+n07867883 fondue, fondu
+n07868045 beef fondue, boeuf fondu bourguignon
+n07868200 French toast
+n07868340 fried rice, Chinese fried rice
+n07868508 frittata
+n07868684 frog legs
+n07868830 galantine
+n07868955 gefilte fish, fish ball
+n07869111 haggis
+n07869291 ham and eggs
+n07869391 hash
+n07869522 corned beef hash
+n07869611 jambalaya
+n07869775 kabob, kebab, shish kebab
+n07869937 kedgeree
+n07870069 souvlaki, souvlakia
+n07870167 lasagna, lasagne
+n07870313 seafood Newburg
+n07870478 lobster Newburg, lobster a la Newburg
+n07870620 shrimp Newburg
+n07870734 Newburg sauce
+n07870894 lobster thermidor
+n07871065 lutefisk, lutfisk
+n07871234 macaroni and cheese
+n07871335 macedoine
+n07871436 meatball
+n07871588 porcupine ball, porcupines
+n07871720 Swedish meatball
+n07871810 meat loaf, meatloaf
+n07872593 moussaka
+n07872748 osso buco
+n07873057 marrow, bone marrow
+n07873198 pheasant under glass
+n07873348 pigs in blankets
+n07873464 pilaf, pilaff, pilau, pilaw
+n07873679 bulgur pilaf
+n07873807 pizza, pizza pie
+n07874063 sausage pizza
+n07874159 pepperoni pizza
+n07874259 cheese pizza
+n07874343 anchovy pizza
+n07874441 Sicilian pizza
+n07874531 poi
+n07874674 pork and beans
+n07874780 porridge
+n07874995 oatmeal, burgoo
+n07875086 loblolly
+n07875152 potpie
+n07875267 rijsttaffel, rijstaffel, rijstafel
+n07875436 risotto, Italian rice
+n07875560 roulade
+n07875693 fish loaf
+n07875835 salmon loaf
+n07875926 Salisbury steak
+n07876026 sauerbraten
+n07876189 sauerkraut
+n07876281 scallopine, scallopini
+n07876460 veal scallopini
+n07876550 scampi
+n07876651 Scotch egg
+n07876775 Scotch woodcock
+n07876893 scrapple
+n07877187 spaghetti and meatballs
+n07877299 Spanish rice
+n07877675 steak tartare, tartar steak, cannibal mound
+n07877849 pepper steak
+n07877961 steak au poivre, peppered steak, pepper steak
+n07878145 beef Stroganoff
+n07878283 stuffed cabbage
+n07878479 kishke, stuffed derma
+n07878647 stuffed peppers
+n07878785 stuffed tomato, hot stuffed tomato
+n07878926 stuffed tomato, cold stuffed tomato
+n07879072 succotash
+n07879174 sukiyaki
+n07879350 sashimi
+n07879450 sushi
+n07879560 Swiss steak
+n07879659 tamale
+n07879821 tamale pie
+n07879953 tempura
+n07880080 teriyaki
+n07880213 terrine
+n07880325 Welsh rarebit, Welsh rabbit, rarebit
+n07880458 schnitzel, Wiener schnitzel
+n07880751 taco
+n07880880 chicken taco
+n07880968 burrito
+n07881117 beef burrito
+n07881205 quesadilla
+n07881404 tostada
+n07881525 bean tostada
+n07881625 refried beans, frijoles refritos
+n07881800 beverage, drink, drinkable, potable
+n07882420 wish-wash
+n07882497 concoction, mixture, intermixture
+n07882886 mix, premix
+n07883031 filling
+n07883156 lekvar
+n07883251 potion
+n07883384 elixir
+n07883510 elixir of life
+n07883661 philter, philtre, love-potion, love-philter, love-philtre
+n07884567 alcohol, alcoholic drink, alcoholic beverage, intoxicant, inebriant
+n07885705 proof spirit
+n07886057 home brew, homebrew
+n07886176 hooch, hootch
+n07886317 kava, kavakava
+n07886463 aperitif
+n07886572 brew, brewage
+n07886849 beer
+n07887099 draft beer, draught beer
+n07887192 suds
+n07887304 Munich beer, Munchener
+n07887461 bock, bock beer
+n07887634 lager, lager beer
+n07887967 light beer
+n07888058 Oktoberfest, Octoberfest
+n07888229 Pilsner, Pilsener
+n07888465 Weissbier, white beer, wheat beer
+n07888816 Weizenbock
+n07888909 malt
+n07889193 wort
+n07889274 malt, malt liquor
+n07889510 ale
+n07889814 bitter
+n07889990 Burton
+n07890068 pale ale
+n07890226 porter, porter's beer
+n07890352 stout
+n07890540 Guinness
+n07890617 kvass
+n07890750 mead
+n07890890 metheglin
+n07890970 hydromel
+n07891095 oenomel
+n07891189 near beer
+n07891309 ginger beer
+n07891433 sake, saki, rice beer
+n07891726 wine, vino
+n07892418 vintage
+n07892512 red wine
+n07892813 white wine
+n07893253 blush wine, pink wine, rose, rose wine
+n07893425 altar wine, sacramental wine
+n07893528 sparkling wine
+n07893642 champagne, bubbly
+n07893792 cold duck
+n07893891 Burgundy, Burgundy wine
+n07894102 Beaujolais
+n07894298 Medoc
+n07894451 Canary wine
+n07894551 Chablis, white Burgundy
+n07894703 Montrachet
+n07894799 Chardonnay, Pinot Chardonnay
+n07894965 Pinot noir
+n07895100 Pinot blanc
+n07895237 Bordeaux, Bordeaux wine
+n07895435 claret, red Bordeaux
+n07895595 Chianti
+n07895710 Cabernet, Cabernet Sauvignon
+n07895839 Merlot
+n07895962 Sauvignon blanc
+n07896060 California wine
+n07896165 Cotes de Provence
+n07896287 dessert wine
+n07896422 Dubonnet
+n07896560 jug wine
+n07896661 macon, maconnais
+n07896765 Moselle
+n07896893 Muscadet
+n07896994 plonk
+n07897116 retsina
+n07897200 Rhine wine, Rhenish, hock
+n07897438 Riesling
+n07897600 liebfraumilch
+n07897750 Rhone wine
+n07897865 Rioja
+n07897975 sack
+n07898117 Saint Emilion
+n07898247 Soave
+n07898333 zinfandel
+n07898443 Sauterne, Sauternes
+n07898617 straw wine
+n07898745 table wine
+n07898895 Tokay
+n07899003 vin ordinaire
+n07899108 vermouth
+n07899292 sweet vermouth, Italian vermouth
+n07899434 dry vermouth, French vermouth
+n07899533 Chenin blanc
+n07899660 Verdicchio
+n07899769 Vouvray
+n07899899 Yquem
+n07899976 generic, generic wine
+n07900225 varietal, varietal wine
+n07900406 fortified wine
+n07900616 Madeira
+n07900734 malmsey
+n07900825 port, port wine
+n07900958 sherry
+n07901355 Marsala
+n07901457 muscat, muscatel, muscadel, muscadelle
+n07901587 liquor, spirits, booze, hard drink, hard liquor, John Barleycorn, strong drink
+n07902121 neutral spirits, ethyl alcohol
+n07902336 aqua vitae, ardent spirits
+n07902443 eau de vie
+n07902520 moonshine, bootleg, corn liquor
+n07902698 bathtub gin
+n07902799 aquavit, akvavit
+n07902937 arrack, arak
+n07903101 bitters
+n07903208 brandy
+n07903543 applejack
+n07903643 Calvados
+n07903731 Armagnac
+n07903841 Cognac
+n07903962 grappa
+n07904072 kirsch
+n07904293 slivovitz
+n07904395 gin
+n07904637 sloe gin
+n07904760 geneva, Holland gin, Hollands
+n07904865 grog
+n07904934 ouzo
+n07905038 rum
+n07905296 demerara, demerara rum
+n07905386 Jamaica rum
+n07905474 schnapps, schnaps
+n07905618 pulque
+n07905770 mescal
+n07905979 tequila
+n07906111 vodka
+n07906284 whiskey, whisky
+n07906572 blended whiskey, blended whisky
+n07906718 bourbon
+n07906877 corn whiskey, corn whisky, corn
+n07907037 firewater
+n07907161 Irish, Irish whiskey, Irish whisky
+n07907342 poteen
+n07907429 rye, rye whiskey, rye whisky
+n07907548 Scotch, Scotch whiskey, Scotch whisky, malt whiskey, malt whisky, Scotch malt whiskey, Scotch malt whisky
+n07907831 sour mash, sour mash whiskey
+n07907943 liqueur, cordial
+n07908411 absinth, absinthe
+n07908567 amaretto
+n07908647 anisette, anisette de Bordeaux
+n07908812 benedictine
+n07908923 Chartreuse
+n07909129 coffee liqueur
+n07909231 creme de cacao
+n07909362 creme de menthe
+n07909504 creme de fraise
+n07909593 Drambuie
+n07909714 Galliano
+n07909811 orange liqueur
+n07909954 curacao, curacoa
+n07910048 triple sec
+n07910152 Grand Marnier
+n07910245 kummel
+n07910379 maraschino, maraschino liqueur
+n07910538 pastis
+n07910656 Pernod
+n07910799 pousse-cafe
+n07910970 Kahlua
+n07911061 ratafia, ratafee
+n07911249 sambuca
+n07911371 mixed drink
+n07911677 cocktail
+n07912093 Dom Pedro
+n07912211 highball
+n07913180 mixer
+n07913300 bishop
+n07913393 Bloody Mary
+n07913537 Virgin Mary, bloody shame
+n07913644 bullshot
+n07913774 cobbler
+n07913882 collins, Tom Collins
+n07914006 cooler
+n07914128 refresher
+n07914271 smoothie
+n07914413 daiquiri, rum cocktail
+n07914586 strawberry daiquiri
+n07914686 NADA daiquiri
+n07914777 spritzer
+n07914887 flip
+n07914995 gimlet
+n07915094 gin and tonic
+n07915213 grasshopper
+n07915366 Harvey Wallbanger
+n07915491 julep, mint julep
+n07915618 manhattan
+n07915800 Rob Roy
+n07915918 margarita
+n07916041 martini
+n07916183 gin and it
+n07916319 vodka martini
+n07916437 old fashioned
+n07916582 pink lady
+n07917133 Sazerac
+n07917272 screwdriver
+n07917392 sidecar
+n07917507 Scotch and soda
+n07917618 sling
+n07917791 brandy sling
+n07917874 gin sling
+n07917951 rum sling
+n07918028 sour
+n07918193 whiskey sour, whisky sour
+n07918309 stinger
+n07918706 swizzle
+n07918879 hot toddy, toddy
+n07919165 zombie, zombi
+n07919310 fizz
+n07919441 Irish coffee
+n07919572 cafe au lait
+n07919665 cafe noir, demitasse
+n07919787 decaffeinated coffee, decaf
+n07919894 drip coffee
+n07920052 espresso
+n07920222 caffe latte, latte
+n07920349 cappuccino, cappuccino coffee, coffee cappuccino
+n07920540 iced coffee, ice coffee
+n07920663 instant coffee
+n07920872 mocha, mocha coffee
+n07920989 mocha
+n07921090 cassareep
+n07921239 Turkish coffee
+n07921360 chocolate milk
+n07921455 cider, cyder
+n07921615 hard cider
+n07921834 scrumpy
+n07921948 sweet cider
+n07922041 mulled cider
+n07922147 perry
+n07922512 rotgut
+n07922607 slug
+n07922764 cocoa, chocolate, hot chocolate, drinking chocolate
+n07922955 criollo
+n07923748 juice
+n07924033 fruit juice, fruit crush
+n07924276 nectar
+n07924366 apple juice
+n07924443 cranberry juice
+n07924560 grape juice
+n07924655 must
+n07924747 grapefruit juice
+n07924834 orange juice
+n07924955 frozen orange juice, orange-juice concentrate
+n07925116 pineapple juice
+n07925229 lemon juice
+n07925327 lime juice
+n07925423 papaya juice
+n07925500 tomato juice
+n07925608 carrot juice
+n07925708 V-8 juice
+n07925808 koumiss, kumis
+n07925966 fruit drink, ade
+n07926250 lemonade
+n07926346 limeade
+n07926442 orangeade
+n07926540 malted milk
+n07926785 mate
+n07926920 mulled wine
+n07927070 negus
+n07927197 soft drink
+n07927512 pop, soda, soda pop, soda water, tonic
+n07927716 birch beer
+n07927836 bitter lemon
+n07927931 cola, dope
+n07928163 cream soda
+n07928264 egg cream
+n07928367 ginger ale, ginger pop
+n07928488 orange soda
+n07928578 phosphate
+n07928696 Coca Cola, Coke
+n07928790 Pepsi, Pepsi Cola
+n07928887 root beer
+n07928998 sarsaparilla
+n07929172 tonic, tonic water, quinine water
+n07929519 coffee, java
+n07929940 cafe royale, coffee royal
+n07930062 fruit punch
+n07930205 milk punch
+n07930315 mimosa, buck's fizz
+n07930433 pina colada
+n07930554 punch
+n07930864 cup
+n07931001 champagne cup
+n07931096 claret cup
+n07931280 wassail
+n07931452 planter's punch
+n07931612 White Russian
+n07931733 fish house punch
+n07931870 May wine
+n07932039 eggnog
+n07932323 cassiri
+n07932454 spruce beer
+n07932614 rickey
+n07932762 gin rickey
+n07932841 tea, tea leaf
+n07933154 tea bag
+n07933274 tea
+n07933530 tea-like drink
+n07933652 cambric tea
+n07933799 cuppa, cupper
+n07933891 herb tea, herbal tea, herbal
+n07934032 tisane
+n07934152 camomile tea
+n07934282 ice tea, iced tea
+n07934373 sun tea
+n07934530 black tea
+n07934678 congou, congo, congou tea, English breakfast tea
+n07934800 Darjeeling
+n07934908 orange pekoe, pekoe
+n07935043 souchong, soochong
+n07935152 green tea
+n07935288 hyson
+n07935379 oolong
+n07935504 water
+n07935737 bottled water
+n07935878 branch water
+n07936015 spring water
+n07936093 sugar water
+n07936263 drinking water
+n07936459 ice water
+n07936548 soda water, carbonated water, club soda, seltzer, sparkling water
+n07936745 mineral water
+n07936979 seltzer
+n07937069 Vichy water
+n07937344 perishable, spoilable
+n07937461 couscous
+n07937621 ramekin, ramequin
+n07938007 multivitamin, multivitamin pill
+n07938149 vitamin pill
+n07938313 soul food
+n07938594 mold, mould
+n07942152 people
+n07954211 book, rule book
+n08182379 crowd
+n08249459 concert band, military band
+n08256735 wedding, wedding party
+n08385989 power breakfast
+n08494231 amusement park, funfair, pleasure ground
+n08505018 bush
+n08517676 bus stop
+n08518171 campsite, campground, camping site, camping ground, bivouac, encampment, camping area
+n08539072 business district, downtown
+n08598301 grassland
+n08613733 outdoors, out-of-doors, open air, open
+n08640739 resort area, playground, vacation spot
+n08649711 bedside
+n09229709 bubble
+n09247410 cloud
+n09282208 floor
+n09376198 ocean
+n09393605 plain, field, champaign
+n09416076 rock, stone
+n09436708 sky
+n09439032 snowfield
+n09807075 archpriest, hierarch, high priest, prelate, primate
+n09835506 ballplayer, baseball player
+n09842047 basketball player, basketeer, cager
+n09874725 bride
+n09880189 bunny, bunny girl
+n09889941 camper
+n09918248 child, kid
+n10019406 diver, plunger
+n10077593 fan, buff, devotee, lover
+n10084295 female child, girl, little girl
+n10148035 groom, bridegroom
+n10223177 jockey
+n10340312 musician, instrumentalist, player
+n10439851 player, participant
+n10514429 referee, ref
+n10565667 scuba diver
+n10599806 singer, vocalist, vocalizer, vocaliser
+n10624074 son, boy
+n10665698 student, pupil, educatee
+n10694258 teacher, instructor
+n11524451 wave
+n11536673 aquatic
+n11545714 fern
+n11552386 spermatophyte, phanerogam, seed plant
+n11552594 seedling
+n11552806 annual
+n11552976 biennial
+n11553240 perennial
+n11665372 angiosperm, flowering plant
+n11672400 wildflower, wild flower
+n11700058 mayapple, May apple, wild mandrake, Podophyllum peltatum
+n11717399 lotus, Indian lotus, sacred lotus, Nelumbo nucifera
+n11729478 clematis
+n11732052 goldthread, golden thread, Coptis groenlandica, Coptis trifolia groenlandica
+n11735570 goldenseal, golden seal, yellow root, turmeric root, Hydrastis Canadensis
+n11739365 globeflower, globe flower
+n11750989 melilotus, melilot, sweet clover
+n11752578 clover, trefoil
+n11771539 carissa
+n11778092 myrtle, Vinca minor
+n11782036 alocasia, elephant's ear, elephant ear
+n11787190 cryptocoryne, water trumpet
+n11789438 monstera
+n11791569 pistia, water lettuce, water cabbage, Pistia stratiotes, Pistia stratoites
+n11798978 ivy, common ivy, English ivy, Hedera helix
+n11823043 amaranth
+n11828973 good-king-henry, allgood, fat hen, wild spinach, Chenopodium bonus-henricus
+n11832214 beet, common beet, Beta vulgaris
+n11832480 beetroot, Beta vulgaris rubra
+n11832671 chard, Swiss chard, spinach beet, leaf beet, chard plant, Beta vulgaris cicla
+n11852148 tuna, Opuntia tuna
+n11855553 poke, pigeon berry, garget, scoke, Phytolacca americana
+n11856573 bloodberry, blood berry, rougeberry, rouge plant, Rivina humilis
+n11865071 caper
+n11869689 watercress
+n11876634 cauliflower, Brassica oleracea botrytis
+n11876803 broccoli, Brassica oleracea italica
+n11877193 collard
+n11877646 turnip, white turnip, Brassica rapa
+n11878283 mustard
+n11879722 rape, colza, Brassica napus
+n11899921 wasabi
+n11916696 yarrow, milfoil, Achillea millefolium
+n11930203 tarragon, estragon, Artemisia dracunculus
+n11944196 thistle
+n11947251 centaury
+n11949402 chamomile, camomile, Chamaemelum nobilis, Anthemis nobilis
+n11959632 artichoke, globe artichoke, artichoke plant, Cynara scolymus
+n11989393 edelweiss, Leontopodium alpinum
+n12012253 ragwort, tansy ragwort, ragweed, benweed, Senecio jacobaea
+n12024176 dandelion, blowball
+n12036939 campanula, bellflower
+n12090890 primrose, primula
+n12098827 thrift
+n12102133 grass
+n12104238 tallgrass, tall-grass
+n12105125 wheatgrass, wheat-grass
+n12109827 oat
+n12111238 chess, cheat, Bromus secalinus
+n12113657 burgrass, bur grass
+n12117017 crabgrass, crab grass, finger grass
+n12118414 yardgrass, yard grass, wire grass, goose grass, Eleusine indica
+n12125183 darnel, tare, bearded darnel, cheat, Lolium temulentum
+n12125584 nimblewill, nimble Will, Muhlenbergia schreberi
+n12126360 ricegrass, rice grass
+n12130549 timothy, herd's grass, Phleum pratense
+n12131405 bluegrass, blue grass
+n12131550 meadowgrass, meadow grass
+n12133682 bluestem, blue stem, Andropogon furcatus, Andropogon gerardii
+n12135898 millet
+n12136720 reed
+n12137120 sorghum
+n12138444 milo, milo maize
+n12141385 grain
+n12141495 cereal, cereal grass
+n12142085 wheat
+n12142450 durum, durum wheat, hard wheat, Triticum durum, Triticum turgidum, macaroni wheat
+n12143065 spelt, Triticum spelta, Triticum aestivum spelta
+n12143676 corn, maize, Indian corn, Zea mays
+n12145477 popcorn, Zea mays everta
+n12147226 bamboo
+n12150969 chufa, yellow nutgrass, earth almond, ground almond, rush nut, Cyperus esculentus
+n12155583 cattail
+n12155773 cat's-tail, bullrush, bulrush, nailrod, reed mace, reedmace, Typha latifolia
+n12158798 squash, squash vine
+n12159804 zucchini, courgette
+n12165384 cucumber, cucumber vine, Cucumis sativus
+n12170585 mallow
+n12179632 roselle, rozelle, sorrel, red sorrel, Jamaica sorrel, Hibiscus sabdariffa
+n12180456 flower-of-an-hour, flowers-of-an-hour, bladder ketmia, black-eyed Susan, Hibiscus trionum
+n12198793 flannelbush, flannel bush, California beauty
+n12205694 herb, herbaceous plant
+n12226932 heath
+n12236546 huckleberry
+n12244153 rhododendron
+n12245695 cranberry
+n12246232 blueberry, blueberry bush
+n12248574 bilberry, whortleberry, whinberry, blaeberry, Viccinium myrtillus
+n12251278 galax, galaxy, wandflower, beetleweed, coltsfoot, Galax urceolata
+n12251740 pyxie, pixie, pixy, Pyxidanthera barbulata
+n12257570 pipsissewa, prince's pine
+n12257725 love-in-winter, western prince's pine, Chimaphila umbellata, Chimaphila corymbosa
+n12306717 jasmine
+n12310349 lilac
+n12343480 fuchsia
+n12346578 daphne
+n12347158 mezereon, February daphne, Daphne mezereum
+n12350758 canna
+n12351091 achira, indian shot, arrowroot, Canna indica, Canna edulis
+n12352287 banana, banana tree
+n12355760 ginger
+n12356395 turmeric, Curcuma longa, Curcuma domestica
+n12358293 cardamom, cardamon, Elettaria cardamomum
+n12371704 silvervine, silver vine, Actinidia polygama
+n12381511 candlewood
+n12384839 love-in-a-mist, running pop, wild water lemon, Passiflora foetida
+n12387633 viola
+n12387839 violet
+n12392070 nettle
+n12393269 ramie, ramee, Chinese silk plant, China grass, Boehmeria nivea
+n12396924 cannabis, hemp
+n12416423 crocus
+n12416703 saffron, saffron crocus, Crocus sativus
+n12419037 amaryllis
+n12421467 narcissus
+n12421683 daffodil, Narcissus pseudonarcissus
+n12430198 colicroot, colic root, crow corn, star grass, unicorn root
+n12434775 garlic, Allium sativum
+n12435152 chives, chive, cive, schnittlaugh, Allium schoenoprasum
+n12437513 kniphofia, tritoma, flame flower, flame-flower, flameflower
+n12441183 asparagus, edible asparagus, Asparagus officinales
+n12446200 mariposa, mariposa tulip, mariposa lily
+n12454159 tulip
+n12472024 clintonia, Clinton's lily
+n12475774 pia, Indian arrowroot, Tacca leontopetaloides, Tacca pinnatifida
+n12476510 agave, century plant, American aloe
+n12483282 soapweed, soap-weed, soap tree, Yucca elata
+n12486574 flax
+n12499163 senna
+n12507379 groundnut, groundnut vine, Indian potato, potato bean, wild bean, Apios americana, Apios tuberosa
+n12532886 licorice, liquorice, Glycyrrhiza glabra
+n12548280 medic, medick, trefoil
+n12549420 alfalfa, lucerne, Medicago sativa
+n12554526 locoweed, crazyweed, crazy weed
+n12572858 catgut, goat's rue, wild sweet pea, Tephrosia virginiana
+n12578255 mung, mung bean, green gram, golden gram, Vigna radiata, Phaseolus aureus
+n12601494 buckwheat, Polygonum fagopyrum, Fagopyrum esculentum
+n12607456 pineapple, pineapple plant, Ananas comosus
+n12621619 sweetbrier, sweetbriar, brier, briar, eglantine, Rosa eglanteria
+n12632733 bennet, white avens, Geum virginianum
+n12633061 toyon, tollon, Christmasberry, Christmas berry, Heteromeles arbutifolia, Photinia arbutifolia
+n12636885 cinquefoil, five-finger
+n12665271 sweet woodruff, waldmeister, woodruff, fragrant bedstraw, Galium odoratum, Asperula odorata
+n12666159 cleavers, clivers, goose grass, catchweed, spring cleavers, Galium aparine
+n12674120 honeysuckle
+n12679876 feverroot, horse gentian, tinker's root, wild coffee, Triostium perfoliatum
+n12684379 jewelweed, lady's earrings, orange balsam, celandine, touch-me-not, Impatiens capensis
+n12685831 cranesbill, crane's bill
+n12688716 storksbill, heron's bill
+n12703716 goatsfoot, goat's foot, Oxalis caprina
+n12704041 oca, oka, Oxalis tuberosa, Oxalis crenata
+n12707199 rue, herb of grace, Ruta graveolens
+n12712626 fraxinella, dittany, burning bush, gas plant, Dictamnus alba
+n12748248 bittersweet, American bittersweet, climbing bittersweet, false bittersweet, staff vine, waxwork, shrubby bittersweet, Celastrus scandens
+n12749852 strawberry bush, wahoo, Euonymus americanus
+n12782530 sundew, sundew plant, daily dew
+n12785724 sedum
+n12786464 orpine, orpin, livelong, live-forever, Sedum telephium
+n12810595 phlox
+n12812235 acanthus
+n12819728 blueweed, blue devil, blue thistle, viper's bugloss, Echium vulgare
+n12822115 forget-me-not, mouse ear, Myosotis scorpiodes
+n12827537 moonflower, belle de nuit, Ipomoea alba
+n12846335 dragonhead, dragon's head, Dracocephalum parviflorum
+n12853287 oregano, marjoram, pot marjoram, wild marjoram, winter sweet, Origanum vulgare
+n12855494 water-mint, water mint, Mentha aquatica
+n12856091 peppermint, Mentha piperita
+n12856287 spearmint, Mentha spicata
+n12859986 catmint, catnip, Nepeta cataria
+n12860365 basil
+n12863234 self-heal, heal all, Prunella vulgaris
+n12864160 rosemary, Rosmarinus officinalis
+n12866968 savory
+n12881105 shellflower, shell-flower, turtlehead, snakehead, snake-head, Chelone glabra
+n12893463 nightshade
+n12903503 jimsonweed, jimson weed, Jamestown weed, common thorn apple, apple of Peru, Datura stramonium
+n12915140 lantana
+n12920204 poinsettia, Christmas star, Christmas flower, lobster plant, Mexican flameleaf, painted leaf, Euphorbia pulcherrima
+n12929403 camellia, camelia
+n12929600 japonica, Camellia japonica
+n12931542 dill, Anethum graveolens
+n12931906 angelica, angelique
+n12936826 cumin, Cuminum cyminum
+n12939104 fennel
+n12942395 parsley, Petroselinum crispum
+n12943049 anise, anise plant, Pimpinella anisum
+n13083461 bedder, bedding plant
+n13084184 succulent
+n13084834 cultivar
+n13085113 weed
+n13085747 wort
+n13099833 evergreen, evergreen plant
+n13102648 creeper
+n13119870 bramble
+n13120211 liana
+n13142182 coffeeberry, California buckthorn, California coffee, Rhamnus californicus
+n13145444 vinifera, vinifera grape, common grape vine, Vitis vinifera
+n13147689 malvasia
+n13148384 Virginia creeper, American ivy, woodbine, Parthenocissus quinquefolia
+n13190060 bracken, Pteridium esculentum
+n13224673 spikemoss, spike moss, little club moss
+n13926786 place, shoes
+n14582716 micronutrient
+n14583400 chyme
+n14696793 rock, stone
+n14698884 gravel, crushed rock
+n14720833 alpha-tocopheral
+n14810561 choline
+n14844693 soil, dirt
+n14867545 fish meal
+n14899328 culture medium, medium
+n14900184 agar, nutrient agar
+n14900342 blood agar
+n14919819 inositol
+n14941787 lithia water
+n14973585 pantothenic acid, pantothen
+n14974264 paper
+n15019030 sand
+n15075141 toilet tissue, toilet paper, bathroom tissue
+n15089258 vitamin
+n15089472 fat-soluble vitamin
+n15089645 water-soluble vitamin
+n15089803 vitamin A, antiophthalmic factor, axerophthol, A
+n15090065 vitamin A1, retinol
+n15090238 vitamin A2, dehydroretinol
+n15090742 B-complex vitamin, B complex, vitamin B complex, vitamin B, B vitamin, B
+n15091129 vitamin B1, thiamine, thiamin, aneurin, antiberiberi factor
+n15091304 vitamin B12, cobalamin, cyanocobalamin, antipernicious anemia factor
+n15091473 vitamin B2, vitamin G, riboflavin, lactoflavin, ovoflavin, hepatoflavin
+n15091669 vitamin B6, pyridoxine, pyridoxal, pyridoxamine, adermin
+n15091846 vitamin Bc, vitamin M, folate, folic acid, folacin, pteroylglutamic acid, pteroylmonoglutamic acid
+n15092059 niacin, nicotinic acid
+n15092227 vitamin D, calciferol, viosterol, ergocalciferol, cholecalciferol, D
+n15092409 vitamin E, tocopherol, E
+n15092650 biotin, vitamin H
+n15092751 vitamin K, naphthoquinone, antihemorrhagic factor
+n15092942 vitamin K1, phylloquinone, phytonadione
+n15093049 vitamin K3, menadione
+n15093137 vitamin P, bioflavinoid, citrin
+n15093298 vitamin C, C, ascorbic acid
