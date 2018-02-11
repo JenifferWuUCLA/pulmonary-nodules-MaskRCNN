@@ -4,9 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 import create_and_read_TFRecord2 as reader2
-import os
 
-X_train, y_train = reader2.get_file("c:\\cat_and_dog_r")
+X_train, y_train = reader2.get_file("../Pulmonary_nodules_data/train/")
 
 image_batch, label_batch = reader2.get_batch(X_train, y_train, 227, 227, 200, 2048)
 
@@ -138,14 +137,14 @@ def onehot(labels):
     return onehot_labels
 
 
-save_model = ".//model//AlexNetModel.ckpt"
+save_model = "../model/AlexNetModel.ckpt"
 
 
 def train(opech):
     with tf.Session() as sess:
         sess.run(init)
 
-        train_writer = tf.summary.FileWriter(".//log", sess.graph)  # 输出日志的地方
+        train_writer = tf.summary.FileWriter("../log", sess.graph)  # 输出日志的地方
         saver = tf.train.Saver()
 
         c = []
