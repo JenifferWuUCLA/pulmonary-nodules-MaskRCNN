@@ -12,7 +12,7 @@ import glob
 from tensorflow.contrib.data import Iterator
 
 learning_rate = 1e-4
-num_epochs = 100  # 代的个数
+num_epochs = 100  # 迭代的个数
 batch_size = 1024
 dropout_rate = 0.5
 num_classes = 2  # 类别标签
