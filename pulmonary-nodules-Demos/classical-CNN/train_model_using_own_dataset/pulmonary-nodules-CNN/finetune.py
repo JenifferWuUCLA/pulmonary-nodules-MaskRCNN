@@ -1,5 +1,5 @@
 """
-writen by stephen
+writen by JenifferWu
 """
 
 import os
@@ -25,27 +25,28 @@ checkpoint_path = "./tmp/checkpoints"  # 训练好的模型和参数存放目录
 if not os.path.isdir(checkpoint_path):
     os.mkdir(checkpoint_path)
 
-train_image_path = 'train/'  # 指定训练集数据路径（根据实际情况指定训练数据集的路径）
-test_image_cat_path = 'test/cat/'  # 指定测试集数据路径（根据实际情况指定测试数据集的路径）
-test_image_dog_path = 'test/dog/'  # 指定测试集数据路径（根据实际情况指定测试数据集的路径）
+train_data_dir = "../Pulmonary_nodules_data/train/"
+val_data_dir = "../Pulmonary_nodules_data/val/"
+
+train_image_n01440010_path = '../Pulmonary_nodules_data/train/'  # 指定训练集数据路径（根据实际情况指定训练数据集的路径）
+train_image_n01440011_path = '../Pulmonary_nodules_data/train/'  # 指定训练集数据路径（根据实际情况指定训练数据集的路径）
+test_image_path = '../Pulmonary_nodules_data/val/'  # 指定测试集数据路径（根据实际情况指定测试数据集的路径）
 
 label_path = []
 test_label = []
 
 # 打开训练数据集目录，读取全部图片，生成图片路径列表
-image_path = np.array(glob.glob(train_image_path + 'cat.*.jpg')).tolist()
-image_path_dog = np.array(glob.glob(train_image_path + 'dog.*.jpg')).tolist()
-image_path[len(image_path):len(image_path)] = image_path_dog
+image_path = np.array(glob.glob(train_image_n01440010_path + 'n01440010_.*.jpg')).tolist()
+image_path_n01440011 = np.array(glob.glob(train_image_n01440011_path + 'n01440011_.*.jpg')).tolist()
+image_path[len(image_path):len(image_path)] = image_path_n01440011
 for i in range(len(image_path)):
-    if 'dog' in image_path[i]:
-        label_path.append(1)
-    else:
+    if 'n01440010_' in image_path[i]:
         label_path.append(0)
+    else:
+        label_path.append(1)
 
 # 打开测试数据集目录，读取全部图片，生成图片路径列表
-test_image = np.array(glob.glob(test_image_cat_path + '*.jpg')).tolist()
-test_image_path_dog = np.array(glob.glob(test_image_dog_path + '*.jpg')).tolist()
-test_image[len(test_image):len(test_image)] = test_image_path_dog
+test_image = np.array(glob.glob(test_image_path + 'PULMONARY_NODULES_pred_.jpg')).tolist()
 for i in range(len(test_image)):
     if i < 1500:
         test_label.append(0)
@@ -66,6 +67,7 @@ test_data = ImageDataGenerator(
     batch_size=batch_size,
     num_classes=num_classes,
     shuffle=False)
+
 with tf.name_scope('input'):
     # 定义迭代器
     iterator = Iterator.from_structure(tr_data.data.output_types,
