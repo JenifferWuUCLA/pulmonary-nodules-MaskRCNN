@@ -17,9 +17,10 @@ reload_net_path = 'save_model'  # 预加载网络参数的存放位置
 savenet = 1  # 是否保存网络        1是0否
 save_net_path = 'save_model'  # 本次保存网络的位置
 
-path = '/Users/ShixiongJing/Desktop/ANACONDA-TSF/Alexnet/Train_Picture/'  # 数据的存放位置,最后加斜杠
-model_dir = "save_model"
+path = '../Pulmonary_nodules_data/train/'  # 数据的存放位置,最后加斜杠
+model_dir = "../save_model"
 model_name = "ckp"
+
 # 将所有的图片resize成100*100
 w = 100  # 图片尺寸
 h = 100
@@ -43,7 +44,10 @@ def read_img(path):
             img = io.imread(im)
             img = transform.resize(img, (w, h, c))
             imgs.append(img)
-            cl_label = im.split('/')[-2]
+            if 'n01440010_' in img:
+                cl_label = 0
+            else:
+                cl_label = 1
             labels.append(cl_label)
     return np.asarray(imgs, np.float32), np.asarray(labels, np.int32)
 
@@ -161,16 +165,16 @@ if reload_net == 1:
 else:
     sess.run(tf.global_variables_initializer())
     print ('未恢复数据，初始化了数据')
+
 for epoch in range(n_epoch):
     start_time = time.time()
     # training
     train_loss, train_acc, n_batch = 0, 0, 0
     for x_train_a, y_train_a in minibatches(x_train, y_train, batch_size, shuffle=True):
         _, err, ac = sess.run([train_op, loss, acc], feed_dict={x: x_train_a, y_: y_train_a})
-        train_loss += err;
-        train_acc += ac;
+        train_loss += err
+        train_acc += ac
         n_batch += 1
-
     print("   train loss: %f" % (train_loss / n_batch))
     print("   train acc: %f" % (train_acc / n_batch))
 
@@ -178,26 +182,30 @@ for epoch in range(n_epoch):
     val_loss, val_acc, n_batch = 0, 0, 0
     for x_val_a, y_val_a in minibatches(x_val, y_val, batch_size, shuffle=False):
         err, ac = sess.run([loss, acc], feed_dict={x: x_val_a, y_: y_val_a})
-        val_loss += err;
-        val_acc += ac;
+        val_loss += err
+        val_acc += ac
         n_batch += 1
     print("   validation loss: %f" % (val_loss / n_batch))
     print("   validation acc: %f" % (val_acc / n_batch))
+
 val_loss, val_acc, n_batch = 0, 0, 0
 for x_val_a, y_val_a in minibatches(x_val, y_val, batch_size, shuffle=False):
     err, ac = sess.run([loss, acc], feed_dict={x: x_val_a, y_: y_val_a})
-    val_loss += err;
-    val_acc += ac;
+    val_loss += err
+    val_acc += ac
     n_batch += 1
+
 print("   validation loss: %f" % (val_loss / n_batch))
 print("   validation acc: %f" % (val_acc / n_batch))
 print("训练完成！")
+
 # 创建模型保存目录
 if not os.path.exists(model_dir):
     os.mkdir(model_dir)
+
 # 保存模型
 saver = tf.train.Saver()
-if (savenet == 1):
+if savenet == 1:
     saver.save(sess, os.path.join(model_dir, model_name))
     print("保存模型成功！")
 sess.close()
