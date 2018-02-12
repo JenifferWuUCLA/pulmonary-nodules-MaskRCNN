@@ -9,7 +9,7 @@
 
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
-![Instance Segmentation Sample](assets/street.png)
+![Instance Segmentation Sample](Mask-RCNN-Git/Mask-RCNN/assets/street.png)
 
 The repository includes:
 * Source code of Mask R-CNN built on FPN and ResNet101.
@@ -58,35 +58,35 @@ To help with debugging and understanding the model, there are 3 notebooks
 
 ## 1. Anchor sorting and filtering
 Visualizes every step of the first stage Region Proposal Network and displays positive and negative anchors along with anchor box refinement.
-![](assets/detection_anchors.png)
+![](Mask-RCNN-Git/Mask-RCNN/assets/detection_anchors.png)
 
 ## 2. Bounding Box Refinement
 This is an example of final detection boxes (dotted lines) and the refinement applied to them (solid lines) in the second stage.
-![](assets/detection_refinement.png)
+![](Mask-RCNN-Git/Mask-RCNN/assets/detection_refinement.png)
 
 ## 3. Mask Generation
 Examples of generated masks. These then get scaled and placed on the image in the right location.
 
-![](assets/detection_masks.png)
+![](Mask-RCNN-Git/Mask-RCNN/assets/detection_masks.png)
 
 ## 4.Layer activations
 Often it's useful to inspect the activations at different layers to look for signs of trouble (all zeros or random noise).
 
-![](assets/detection_activations.png)
+![](Mask-RCNN-Git/Mask-RCNN/assets/detection_activations.png)
 
 ## 5. Weight Histograms
 Another useful debugging tool is to inspect the weight histograms. These are included in the inspect_weights.ipynb notebook.
 
-![](assets/detection_histograms.png)
+![](Mask-RCNN-Git/Mask-RCNN/assets/detection_histograms.png)
 
 ## 6. Logging to TensorBoard
 TensorBoard is another great debugging and visualization tool. The model is configured to log losses and save weights at the end of every epoch.
 
-![](assets/detection_tensorboard.png)
+![](Mask-RCNN-Git/Mask-RCNN/assets/detection_tensorboard.png)
 
 ## 6. Composing the different pieces into a final result
 
-![](assets/detection_final.png)
+![](Mask-RCNN-Git/Mask-RCNN/assets/detection_final.png)
 
 
 # Training on MS COCO
@@ -194,5 +194,5 @@ If you use Docker, the code has been verified to work on
     You must have the Visual C++ 2015 build tools on your path (see the repo for additional details)
 
 ## More Examples
-![Sheep](assets/sheep.png)
-![Donuts](assets/donuts.png)
+![Sheep](Mask-RCNN-Git/Mask-RCNN/assets/sheep.png)
+![Donuts](Mask-RCNN-Git/Mask-RCNN/assets/donuts.png)
