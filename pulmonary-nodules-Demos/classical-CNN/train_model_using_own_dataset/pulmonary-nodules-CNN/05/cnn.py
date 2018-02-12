@@ -2,7 +2,6 @@
 import os
 import time
 import shutil
-import zipfile
 import argparse
 import collections
 import numpy as np
@@ -33,21 +32,11 @@ class Tools:
 
 
 class PreData:
+    def __init__(self, ratio=4):
+        data_path = "../Pulmonary_nodules_data/"
 
-    def __init__(self, zip_file, ratio=4):
-        data_path = zip_file.split(".zip")[0]
         self.train_path = os.path.join(data_path, "train")
         self.test_path = os.path.join(data_path, "test")
-
-        if not os.path.exists(data_path):
-            f = zipfile.ZipFile(zip_file, "r")
-            f.extractall(data_path)
-
-            all_image = self.get_all_images(os.path.join(data_path, data_path.split("/")[-1]))
-            self.get_data_result(all_image, ratio, Tools.new_dir(self.train_path), Tools.new_dir(self.test_path))
-        else:
-            Tools.print_info("data is exists")
-        pass
 
     # 生成测试集和训练集
     @staticmethod
@@ -103,8 +92,8 @@ class PreData:
 
     # 生成数据
     @staticmethod
-    def main(zip_file):
-        pre_data = PreData(zip_file)
+    def main():
+        pre_data = PreData()
         return pre_data.train_path, pre_data.test_path
 
     pass
@@ -192,7 +181,6 @@ class CNNNet:
 
 
 class AlexNet:
-
     def __init__(self, type_number, image_size, image_channel, batch_size):
         self._type_number = type_number
         self._image_size = image_size
@@ -266,7 +254,6 @@ class AlexNet:
 
 
 class VGGNet:
-
     def __init__(self, type_number, image_size, image_channel, batch_size):
         self._type_number = type_number
         self._image_size = image_size
@@ -423,7 +410,6 @@ class VGGNet:
 
 
 class InceptionNet:
-
     def __init__(self, type_number, image_size, image_channel, batch_size):
         self._type_number = type_number
         self._image_size = image_size
@@ -459,10 +445,8 @@ class InceptionNet:
 
         # 299
         with tf.variable_scope(scope, values=[inputs]):
-
             # 非Inception Module:5个卷积层和2个最大池化层
             with slim.arg_scope([slim.conv2d, slim.max_pool2d, slim.avg_pool2d], stride=1, padding="VALID"):
-
                 with tf.variable_scope("group_non"):
                     net = slim.conv2d(inputs, 32, [3, 3], stride=2)  # 149 X 149 X 32
                     net = slim.conv2d(net, 32, [3, 3])  # 147 X 147 X 32
@@ -478,7 +462,6 @@ class InceptionNet:
 
             # 共有3个连续的Inception模块组
             with slim.arg_scope([slim.conv2d, slim.max_pool2d, slim.avg_pool2d], stride=1, padding="SAME"):
-
                 # 第1个模块组包含了3个Inception Module
                 with tf.variable_scope("group_1a"):
                     with tf.variable_scope("branch_0"):
@@ -586,7 +569,7 @@ class InceptionNet:
                     with tf.variable_scope("branch_0"):
                         branch_0 = slim.conv2d(net, 192, [1, 1])  # 17 X 17 X 192
                     with tf.variable_scope("branch_1"):
-                        branch_1 = slim.conv2d(net, 160, [1, 1],)
+                        branch_1 = slim.conv2d(net, 160, [1, 1], )
                         branch_1 = slim.conv2d(branch_1, 160, [1, 7])
                         branch_1 = slim.conv2d(branch_1, 192, [7, 1])  # 17 X 17 X 192
                     with tf.variable_scope("branch_2"):
@@ -684,15 +667,12 @@ class InceptionNet:
     # 网络
     # keep_prob=0.8
     def inception_v3(self, input_op, is_training=True, reuse=None, **kw):
-
         with tf.variable_scope("inception_v3", values=[input_op, self._type_number], reuse=reuse) as scope:
-
             # slim.arg_scope 可以给函数的参数自动赋予某些默认值
             with slim.arg_scope([slim.batch_norm, slim.dropout], is_training=is_training):
                 net, end_points = self._inception_v3_base(inputs=input_op, scope=scope)
 
                 with slim.arg_scope([slim.conv2d, slim.max_pool2d, slim.avg_pool2d], stride=1, padding="SAME"):
-
                     # 辅助分类节点：Auxiliary Logits，将中间某一层的输出用作分类，并按一个较小的权重（0.3）加到最终分类
                     # 结果中，相当于做了模型的融合，同时给网络增加了反向传播的梯度信号，也提供了额外的正则化。
                     with tf.variable_scope("aux_logits"):
@@ -706,7 +686,7 @@ class InceptionNet:
                         aux_logits = slim.conv2d(aux_logits, 768, [4, 4], padding="VALID",  # 1 X 1 X 768
                                                  weights_initializer=tf.truncated_normal_initializer(stddev=0.01))
                         aux_logits = slim.conv2d(aux_logits, self._type_number, [1, 1],
-                                                 activation_fn=None, normalizer_fn=None,   # 1 X 1 X num_classes
+                                                 activation_fn=None, normalizer_fn=None,  # 1 X 1 X num_classes
                                                  weights_initializer=tf.truncated_normal_initializer(stddev=0.001))
                         aux_logits = tf.squeeze(aux_logits, [1, 2])  # num_classes
                         end_points["aux_logits"] = aux_logits
@@ -720,7 +700,7 @@ class InceptionNet:
                         net = slim.avg_pool2d(net, [6, 6], padding="VALID")  # 1 X 1 X 2048
                         net = slim.dropout(net, keep_prob=kw["keep_prob"])
                         end_points["pre_logits"] = net
-                        logits = slim.conv2d(net, self._type_number, [1, 1],   # 1 X 1 X num_classes
+                        logits = slim.conv2d(net, self._type_number, [1, 1],  # 1 X 1 X num_classes
                                              activation_fn=None, normalizer_fn=None)
                         logits = tf.squeeze(logits, [1, 2])  # num_classes
                         end_points["logits"] = logits
@@ -739,7 +719,6 @@ class InceptionNet:
 
 
 class ResNet:
-
     def __init__(self, type_number, image_size, image_channel, batch_size):
         self._type_number = type_number
         self._image_size = image_size
@@ -897,7 +876,6 @@ class ResNet:
 
 
 class Runner:
-
     def __init__(self, data, classifies, learning_rate, **kw):
         self._data = data
         self._type_number = self._data.type_number
@@ -956,8 +934,8 @@ class Runner:
 
     pass
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("-name", type=str, default="vgg", help="name")
     parser.add_argument("-epochs", type=int, default=50000, help="train epoch number")
@@ -966,14 +944,13 @@ if __name__ == '__main__':
     parser.add_argument("-image_size", type=int, default=256, help="image size")
     parser.add_argument("-image_channel", type=int, default=3, help="image channel")
     parser.add_argument("-keep_prob", type=float, default=0.7, help="keep prob")
-    parser.add_argument("-zip_file", type=str, default="../data/resisc45.zip", help="zip file path")
     args = parser.parse_args()
 
-    output_param = "name={},epochs={},batch_size={},type_number={},image_size={},image_channel={},zip_file={},keep_prob={}"
+    output_param = "name={},epochs={},batch_size={},type_number={},image_size={},image_channel={},keep_prob={}"
     Tools.print_info(output_param.format(args.name, args.epochs, args.batch_size, args.type_number,
-                                         args.image_size, args.image_channel, args.zip_file, args.keep_prob))
+                                         args.image_size, args.image_channel, args.keep_prob))
 
-    now_train_path, now_test_path = PreData.main(zip_file=args.zip_file)
+    now_train_path, now_test_path = PreData.main()
     now_data = Data(batch_size=args.batch_size, type_number=args.type_number, image_size=args.image_size,
                     image_channel=args.image_channel, train_path=now_train_path, test_path=now_test_path)
 
